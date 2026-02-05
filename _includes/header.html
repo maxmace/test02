@@ -40,10 +40,16 @@
     text-transform: uppercase;
     display: inline-block;
   }
+.didact-style {
+  font-family: 'Didact Gothic', sans-serif;
+  /* Optional styling to match Century Gothic's clean look */
+  font-weight: 400;
+  line-height: 1.6;
+}
 </style>            
                     <span class="name hollow-text">{{ site.title }}</span>
-                    <hr class="star-light">
-                    <span class="skills">{{ site.description }}</span>
+                    <hr class="star-light hollow-text">
+                    <span class="skills didact-style">{{ site.description }}</span>
                 </div>
             </div>
         </div>
