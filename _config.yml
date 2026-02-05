@@ -14,9 +14,9 @@ baseurl: "/test02" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 
 # Social media profiles - feel free to add more here
-twitter_username: SBootstrap
+twitter_username:  
 github_username:  maxmace
-facebook_username: StartBootstrap
+facebook_username:  
 #instagram_username: beyonce
 #stackoverflow_url: https://
 #googleplus_username: BobMarley
@@ -24,10 +24,10 @@ facebook_username: StartBootstrap
 #linkedin_url: https://
 
 # Address information
-address_street: 3034 Melrose Place
-address_city: Beverly Hills
-address_state: CA
-address_zip: 90201
+address_street:  
+address_city: West melbourne
+address_state: FL
+address_zip:  
 
 # Build settings
 markdown: kramdown
