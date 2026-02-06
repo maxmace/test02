@@ -6,23 +6,10 @@ img: img/portfolio/supernova.png
 modalID: modalSupernova
 category: Design
 ---
-PLANETARIUM
-SOUNDSCAPE
+# PLANETARIUM SOUNDSCAPE: Supernova
+## Featuring title track, “Light of a Thousand Days”
 
-A COSMIC THEATER FOR YOUR LIVING ROOM
-
-A SONIC CINEMA FOR YOUR LIVING ROOM
-
-Planetarium Soundscape
-
-A Cosmic Theater For Your Living Room
-
-A Sonic Cinema For Your Living Room
-
-A Planetarium  For Your Living Room
-
-
-
+<div style="text-align: left;">
 
 
  At the boundary of music and sound design exists a zone of…uncertainty..
@@ -137,9 +124,10 @@ Instruments used:
      • Ensoniq ESQ1
      • Ensoniq SQ-80
 
-Thanks for watching this far. I hope you enjoy the title track, “Light of a Thousand Days”..
+Thanks for watching this far. I hope you enjoy the title track, “Light of a Thousand Days”...
 
 A high-impact retro-planetarium audio experience. This sonic supernova is a sound design experiment in outer space ambience with all-new visualizations and a special bonus space music overture at the end.
 
 Featuring the Hollow Sun Advanced Noise Generator, the Ensoniq ESQ1, Hydrasynth Deluxe, and 4-channel cues  matrixed into the audio mix for surround systems such as Dolby Atmos or the Involve Audio Surround Master.
 
+</div>
