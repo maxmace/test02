@@ -9,9 +9,6 @@ category: Design
 # PLANETARIUM SOUNDSCAPE: Supernova
 ## Featuring title track, “Light of a Thousand Days”
 
-<div style="text-align: left;">
-
-
  At the boundary of music and sound design exists a zone of…uncertainty..
 
 The traditional approach was to throw together some existing recordings of sound effects and call it a day.
@@ -130,4 +127,4 @@ A high-impact retro-planetarium audio experience. This sonic supernova is a soun
 
 Featuring the Hollow Sun Advanced Noise Generator, the Ensoniq ESQ1, Hydrasynth Deluxe, and 4-channel cues  matrixed into the audio mix for surround systems such as Dolby Atmos or the Involve Audio Surround Master.
 
-</div>
+
