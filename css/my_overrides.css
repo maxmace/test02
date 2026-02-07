@@ -1,99 +1,61 @@
-/* 1. Main Portfolio Section on the Landing Page */
-#portfolio {
-    background-color: #0E1A30 !important;
+/* ==========================================================================
+   1. GLOBAL THEME & MODAL OVERRIDES
+   ========================================================================== */
+
+/* Force dark theme on main sections and modals */
+header, 
+#portfolio,
+.portfolio-modal .modal-content {
+    background-color: #0d1017 !important;
+    background-image: none !important;
     color: #ffffff !important;
 }
 
-/* Force all headings inside portfolio modals to flush left */
+/* Modal text alignment: Force everything left */
+.portfolio-modal .modal-body p,
 .portfolio-modal .modal-body h1,
 .portfolio-modal .modal-body h2,
 .portfolio-modal .modal-body h3,
 .portfolio-modal .modal-body h4,
-.portfolio-modal .modal-body h5 {
+.portfolio-modal .modal-body h5,
+.portfolio-modal .modal-body ul,
+.portfolio-modal .modal-body ol,
+.portfolio-modal .modal-body li {
     text-align: left !important;
-    margin-left: 0 !important;
-    margin-right: auto !important;
 }
-/* Force bulleted and numbered lists to flush left in modals */
+
+/* List styling in modals */
 .portfolio-modal .modal-body ul,
 .portfolio-modal .modal-body ol {
-    text-align: left !important;
     display: block !important;
-    margin-left: 20px !important; /* Provides space for the bullets/numbers */
+    margin-left: 20px !important;
     padding-left: 20px !important;
 }
 
 .portfolio-modal .modal-body li {
-    text-align: left !important;
-    margin-bottom: 5px; /* Adds a little breathing room between items */
-    color: #ffffff !important; /* Ensures text is visible on dark background */
+    margin-bottom: 5px;
 }
-/* Optional: Change bullet color to match your glowing blue theme */
+
 .portfolio-modal .modal-body ul li::marker {
     color: #00f2ff !important;
     font-size: 1.2em;
 }
 
-/* Optional: Add a slight glow or color to these headers to match your theme */
-.portfolio-modal .modal-body h2, 
-.portfolio-modal .modal-body h3 {
-    color: #00f2ff !important; /* The glowing blue from your divider */
-    margin-top: 30px;
-    margin-bottom: 15px;
-}
-
-/* Ensure the heading and star icon in this section are white */
-#portfolio h2, 
-#portfolio hr.star-primary {
-    color: #ffffff !important;
-}
-
-#portfolio hr.star-primary:after {
-    background-color: #0E1A30 !important;
-    color: #ffffff !important;
-}
-
-/* 2. Portfolio Popups (Modals) */
-.portfolio-modal .modal-content {
-    background-color: #0E1A30 !important;
-    color: #ffffff !important;
-}
-
-/* Force left alignment for descriptions within modals (as previously discussed) */
-.portfolio-modal .modal-body p {
-    text-align: left !important;
-}
-
-/* Ensure modal buttons and headers are visible against the dark background */
-.portfolio-modal h2, 
-.portfolio-modal .item-intro,
-.portfolio-modal ul {
-    color: #ffffff !important;
-}
-
-/* The "Close" button 'X' at the top right of modals */
+/* Modal Close Button (The 'X') */
 .portfolio-modal .close-modal .lr,
 .portfolio-modal .close-modal .lr .rl {
     background-color: #ffffff !important;
 }
 
-/* --- Header Section Overrides --- */
+/* ==========================================================================
+   2. HEADER & ANIMATION
+   ========================================================================== */
 
-/* --- 1. THE DARK BACKGROUND (Priority Fix) --- */
-header, 
-#portfolio,
-.portfolio-modal .modal-content {
-    background-color: #0d1017 !important;
-    background-image: none !important; /* Removes any theme gradients */
-}
-
-/* --- 2. THE SPINNING GALAXY --- */
 @keyframes spin {
     from { transform: rotate(0deg); }
     to { transform: rotate(360deg); }
 }
 
-/* We target the class specifically to ensure it triggers */
 img.inline-spinner {
     animation: spin 40s linear infinite !important;
     display: block !important;
@@ -102,7 +64,6 @@ img.inline-spinner {
     border-radius: 50%;
 }
 
-/* --- 3. THE GLOWING TEXT --- */
 .hollow-text {
     display: inline-block !important;
     font-size: 60px !important;
@@ -110,13 +71,9 @@ img.inline-spinner {
     color: transparent !important;
     -webkit-text-stroke: 2px #ffffff !important;
     text-transform: uppercase !important;
-    /* Increased glow intensity for visibility */
-    text-shadow: 
-        0 0 15px rgba(255, 255, 255, 1), 
-        0 0 30px rgba(0, 212, 255, 0.8) !important;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 1), 0 0 30px rgba(0, 212, 255, 0.8) !important;
 }
 
-/* --- 4. DIVIDER & SKILLS --- */
 .star-light-custom {
     border: none !important;
     height: 2px !important;
@@ -127,43 +84,43 @@ img.inline-spinner {
 }
 
 .custom-font-stack {
-    color: #ffffff !important;
     font-family: "Century Gothic", "Apple Gothic", "Didact Gothic", sans-serif !important;
 }
 
-/* --- Video Player  Overrides --- */
-/* Styling for the new video captions */
-/* Styling for the clickable video captions */
-.video-caption a {
-    color: #ffffff !important;
-    text-decoration: none !important;
-    transition: all 0.3s ease;
-    display: inline-block;
-}
+/* ==========================================================================
+   3. VIDEO PLAYER & THUMBNAILS
+   ========================================================================== */
 
-.video-caption a:hover {
-    color: #00f2ff !important; /* Glows blue on hover */
-    text-shadow: 0 0 8px #00f2ff;
-    transform: translateX(5px); /* Subtle slide effect on hover */
-}
-
-/* Ensure the external link icon looks right */
-.video-caption i {
-    opacity: 0.7;
-}
-/* Container for the thumbnail image */
-.video-thumb-wrapper {
+/* The Responsive Container (Essential for the iframe swap) */
+.video-container {
     position: relative;
-    display: block;
-    width: 100%;
-    cursor: pointer;
+    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    height: 0;
     overflow: hidden;
+    background-color: #000;
     border-radius: 8px;
+    margin-bottom: 15px;
+}
+
+/* Forces the iframe or image to fill the container */
+.video-container iframe,
+.video-container .video-thumb-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* The Thumbnail Wrapper */
+.video-thumb-wrapper {
+    cursor: pointer;
     border: 2px solid #00f2ff;
     box-shadow: 0 0 15px rgba(0, 242, 255, 0.4);
+    transition: transform 0.3s ease;
 }
 
-/* The Play Button Circle */
+/* The Play Button Overlay */
 .play-overlay {
     position: absolute;
     top: 50%;
@@ -174,27 +131,36 @@ img.inline-spinner {
     background: rgba(0, 0, 0, 0.6);
     border: 3px solid #ffffff;
     border-radius: 50%;
-    transition: all 0.3s ease;
     z-index: 10;
+    transition: all 0.3s ease;
 }
 
-/* The Play Button Triangle */
 .play-overlay::after {
     content: "";
     position: absolute;
     top: 50%;
-    left: 55%; /* Centered visually for the triangle tip */
+    left: 55%;
     transform: translate(-50%, -50%);
     border-style: solid;
     border-width: 12px 0 12px 20px;
     border-color: transparent transparent transparent #ffffff;
 }
 
-/* Interaction: Button glows and grows on hover */
+/* Hover States for Video */
 .video-thumb-wrapper:hover .play-overlay {
     background: rgba(0, 242, 255, 0.8);
     border-color: #00f2ff;
-    transform: translate(-50%, -50%) scale(1.1);
     box-shadow: 0 0 20px #00f2ff;
+    transform: translate(-50%, -50%) scale(1.1);
 }
-/* --- END Video Player  Overrides --- */
+
+/* Video Caption Styling */
+.video-caption {
+    font-family: "Century Gothic", sans-serif !important;
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+.video-caption strong {
+    color: #00f2ff;
+}
