@@ -13,7 +13,11 @@ A high-impact retro-planetarium audio experience. This sonic supernova is a soun
 
 Featuring the Hollow Sun Advanced Noise Generator, the Ensoniq ESQ1, Hydrasynth Deluxe, and 4-channel cues  matrixed into the audio mix for surround systems such as Dolby Atmos or the Involve Audio Surround Master.
 
-{% include youtube.html id="COxMHHi6apU" start="436" title="This is the music-only part of the video" %}
+{% include youtube.html 
+   id="COxMHHi6apU" 
+   start="436" 
+   thumb="nova.jpg" 
+   title="This is the music-only part of the video" %}
 
 <h3>About this video </h3>
 
