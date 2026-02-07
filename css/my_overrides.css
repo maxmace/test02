@@ -14,6 +14,25 @@
     margin-left: 0 !important;
     margin-right: auto !important;
 }
+/* Force bulleted and numbered lists to flush left in modals */
+.portfolio-modal .modal-body ul,
+.portfolio-modal .modal-body ol {
+    text-align: left !important;
+    display: block !important;
+    margin-left: 20px !important; /* Provides space for the bullets/numbers */
+    padding-left: 20px !important;
+}
+
+.portfolio-modal .modal-body li {
+    text-align: left !important;
+    margin-bottom: 5px; /* Adds a little breathing room between items */
+    color: #ffffff !important; /* Ensures text is visible on dark background */
+}
+/* Optional: Change bullet color to match your glowing blue theme */
+.portfolio-modal .modal-body ul li::marker {
+    color: #00f2ff !important;
+    font-size: 1.2em;
+}
 
 /* Optional: Add a slight glow or color to these headers to match your theme */
 .portfolio-modal .modal-body h2, 
