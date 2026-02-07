@@ -1,33 +1,34 @@
 <div class="video-block">
-    <div class="video-container">
+    <div class="video-container" id="container-{{ include.id }}">
         {% if include.thumb %}
-        <a href="https://www.youtube.com/watch?v={{ include.id }}&t={{ include.start }}" 
-           target="_blank" 
-           rel="noopener noreferrer" 
-           class="video-thumb-wrapper">
+        <div class="video-thumb-wrapper" 
+             onclick="loadVideo('{{ include.id }}', '{{ include.start }}', '{{ include.end }}', 'container-{{ include.id }}')">
             
             <img src="{{ '/img/' | append: include.thumb | relative_url }}" 
                  alt="{{ include.title }}" 
                  class="img-responsive">
             
             <div class="play-overlay"></div>
-        </a>
+        </div>
         {% else %}
-        <iframe 
-            src="https://www.youtube.com/embed/{{ include.id }}?{% if include.start %}start={{ include.start }}{% endif %}{% if include.end %}&end={{ include.end }}{% endif %}" 
-            frameborder="0" 
-            allowfullscreen>
-        </iframe>
+        <iframe src="https://www.youtube.com/embed/{{ include.id }}?{% if include.start %}start={{ include.start }}{% endif %}{% if include.end %}&end={{ include.end }}{% endif %}" frameborder="0" allowfullscreen></iframe>
         {% endif %}
     </div>
 
     {% if include.title %}
     <div class="video-caption">
-        <a href="https://www.youtube.com/watch?v={{ include.id }}{% if include.start %}&t={{ include.start }}{% endif %}" 
-           target="_blank" 
-           rel="noopener noreferrer">
-            <strong>Video:</strong> {{ include.title }} <i class="fa fa-external-link"></i>
-        </a>
+        <strong>Video:</strong> {{ include.title }}
     </div>
     {% endif %}
 </div>
+
+<script>
+function loadVideo(id, start, end, containerId) {
+    var container = document.getElementById(containerId);
+    var url = "https://www.youtube.com/embed/" + id + "?autoplay=1";
+    if (start) url += "&start=" + start;
+    if (end) url += "&end=" + end;
+    
+    container.innerHTML = '<iframe src="' + url + '" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width:100%; height:100%; position:absolute; top:0; left:0;"></iframe>';
+}
+</script>
