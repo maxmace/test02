@@ -1,18 +1,25 @@
 <div class="video-block">
     <div class="video-container">
+        {% if include.thumb %}
+        <a href="https://www.youtube.com/watch?v={{ include.id }}&t={{ include.start }}" target="_blank" rel="noopener noreferrer">
+            <img src="{{ '/img/' | append: include.thumb | relative_url }}" 
+                 alt="{{ include.title }}" 
+                 class="img-responsive" 
+                 style="width: 100%; border-radius: 8px; border: 2px solid #00f2ff; box-shadow: 0 0 15px rgba(0, 242, 255, 0.4);">
+        </a>
+        {% else %}
         <iframe 
-            src="https://www.youtube.com/embed/{{ include.id }}?{% if include.start %}start={{ include.start }}{% endif %}{% if include.end %}&end={{ include.end }}{% endif %}" 
+            src="https://www.youtube.com/embed/{{ include.id }}?start={{ include.start }}&end={{ include.end }}" 
             frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen>
         </iframe>
+        {% endif %}
     </div>
+
     {% if include.title %}
     <div class="video-caption">
-        <a href="https://www.youtube.com/watch?v={{ include.id }}{% if include.start %}&t={{ include.start }}{% endif %}" 
-           target="_blank" 
-           rel="noopener noreferrer">
-           <strong>Video:</strong> {{ include.title }} <i class="fa fa-external-link" style="font-size: 12px; margin-left: 5px;"></i>
+        <a href="https://www.youtube.com/watch?v={{ include.id }}&t={{ include.start }}" target="_blank" rel="noopener noreferrer">
+            <strong>Video:</strong> {{ include.title }} <i class="fa fa-external-link"></i>
         </a>
     </div>
     {% endif %}
