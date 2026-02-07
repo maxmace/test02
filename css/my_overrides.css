@@ -151,4 +151,50 @@ img.inline-spinner {
 .video-caption i {
     opacity: 0.7;
 }
+/* Container for the thumbnail image */
+.video-thumb-wrapper {
+    position: relative;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 8px;
+    border: 2px solid #00f2ff;
+    box-shadow: 0 0 15px rgba(0, 242, 255, 0.4);
+}
+
+/* The Play Button Circle */
+.play-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60px;
+    height: 60px;
+    background: rgba(0, 0, 0, 0.6);
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+    z-index: 10;
+}
+
+/* The Play Button Triangle */
+.play-overlay::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 55%; /* Centered visually for the triangle tip */
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    border-width: 12px 0 12px 20px;
+    border-color: transparent transparent transparent #ffffff;
+}
+
+/* Interaction: Button glows and grows on hover */
+.video-thumb-wrapper:hover .play-overlay {
+    background: rgba(0, 242, 255, 0.8);
+    border-color: #00f2ff;
+    transform: translate(-50%, -50%) scale(1.1);
+    box-shadow: 0 0 20px #00f2ff;
+}
 /* --- END Video Player  Overrides --- */
