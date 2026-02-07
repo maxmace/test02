@@ -95,17 +95,22 @@ img.inline-spinner {
 
 /* --- Video Player  Overrides --- */
 /* Styling for the new video captions */
-.video-caption {
-    font-family: "Century Gothic", sans-serif !important;
-    font-size: 0.9em;
-    border-left: 3px solid #00f2ff; /* Matches your glowing blue line */
-    padding-left: 10px;
+/* Styling for the clickable video captions */
+.video-caption a {
     color: #ffffff !important;
-    text-shadow: 0 0 5px rgba(0, 242, 255, 0.3);
+    text-decoration: none !important;
+    transition: all 0.3s ease;
+    display: inline-block;
 }
 
-/* Ensure the video block has enough breathing room */
-.video-block {
-    margin: 40px 0;
+.video-caption a:hover {
+    color: #00f2ff !important; /* Glows blue on hover */
+    text-shadow: 0 0 8px #00f2ff;
+    transform: translateX(5px); /* Subtle slide effect on hover */
+}
+
+/* Ensure the external link icon looks right */
+.video-caption i {
+    opacity: 0.7;
 }
 /* --- END Video Player  Overrides --- */
