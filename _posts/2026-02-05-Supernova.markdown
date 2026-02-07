@@ -8,14 +8,17 @@ category: Design
 ---
 # PLANETARIUM SOUNDSCAPE: Supernova
 ## Featuring title track, “Light of a Thousand Days”
+
 {% include youtube.html id="COxMHHi6apU" start="436" %}
 
 ##About this video 
+
 (Plays entire video)
 {% include youtube.html id="COxMHHi6apU" %}
 
 ##Jump to Supernova Soundscape
-{% include youtube.html id="COxMHHi6apU" start="147" %}
+
+{% include youtube.html id="COxMHHi6apU" start="155" %}
 
 
  At the boundary of music and sound design exists a zone of…uncertainty..
