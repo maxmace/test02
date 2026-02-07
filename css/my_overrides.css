@@ -92,3 +92,20 @@ img.inline-spinner {
     color: #ffffff !important;
     font-family: "Century Gothic", "Apple Gothic", "Didact Gothic", sans-serif !important;
 }
+
+/* --- Video Player  Overrides --- */
+/* Styling for the new video captions */
+.video-caption {
+    font-family: "Century Gothic", sans-serif !important;
+    font-size: 0.9em;
+    border-left: 3px solid #00f2ff; /* Matches your glowing blue line */
+    padding-left: 10px;
+    color: #ffffff !important;
+    text-shadow: 0 0 5px rgba(0, 242, 255, 0.3);
+}
+
+/* Ensure the video block has enough breathing room */
+.video-block {
+    margin: 40px 0;
+}
+/* --- END Video Player  Overrides --- */
