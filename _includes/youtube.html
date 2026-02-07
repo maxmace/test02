@@ -1,4 +1,4 @@
-<div class="video-block" style="margin-bottom: 30px;">
+<div class="video-block">
     <div class="video-container">
         <iframe 
             src="https://www.youtube.com/embed/{{ include.id }}?{% if include.start %}start={{ include.start }}{% endif %}{% if include.end %}&end={{ include.end }}{% endif %}" 
@@ -8,8 +8,12 @@
         </iframe>
     </div>
     {% if include.title %}
-    <div class="video-caption" style="margin-top: 10px; font-style: italic; color: #cbd5e0; text-align: left;">
-        <strong>Video:</strong> {{ include.title }}
+    <div class="video-caption">
+        <a href="https://www.youtube.com/watch?v={{ include.id }}{% if include.start %}&t={{ include.start }}{% endif %}" 
+           target="_blank" 
+           rel="noopener noreferrer">
+           <strong>Video:</strong> {{ include.title }} <i class="fa fa-external-link" style="font-size: 12px; margin-left: 5px;"></i>
+        </a>
     </div>
     {% endif %}
 </div>
