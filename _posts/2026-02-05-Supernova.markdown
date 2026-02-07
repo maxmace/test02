@@ -33,6 +33,8 @@ It never existed as audio until it strikes your eardrums after being rendered by
 
 No microphones were used, and modern equipment was only sparsely employed to manipulate raw waveforms Musique Concrète-style.
 
+## A new kind of noise
+
 In the spirit of analog 1970s planetariums, this sketch depicts the death and afterlife of a massive star, featuring a sound you may never have heard before: 
 
 --The highly detailed bone-rattling explosion is realized with the Advanced Noise Generator, built by the world’s leading KSP developer Mario Krušelj and the late Stephen Howell, a legendary figure in the world of sound design.
