@@ -4,6 +4,25 @@
     color: #ffffff !important;
 }
 
+/* Force all headings inside portfolio modals to flush left */
+.portfolio-modal .modal-body h1,
+.portfolio-modal .modal-body h2,
+.portfolio-modal .modal-body h3,
+.portfolio-modal .modal-body h4,
+.portfolio-modal .modal-body h5 {
+    text-align: left !important;
+    margin-left: 0 !important;
+    margin-right: auto !important;
+}
+
+/* Optional: Add a slight glow or color to these headers to match your theme */
+.portfolio-modal .modal-body h2, 
+.portfolio-modal .modal-body h3 {
+    color: #00f2ff !important; /* The glowing blue from your divider */
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
 /* Ensure the heading and star icon in this section are white */
 #portfolio h2, 
 #portfolio hr.star-primary {
