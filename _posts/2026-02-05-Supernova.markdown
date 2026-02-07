@@ -22,7 +22,12 @@ Featuring the Hollow Sun Advanced Noise Generator, the Ensoniq ESQ1, Hydrasynth 
 
 <h3>Jump to Supernova Soundscape</h3>
 
-{% include youtube.html id="COxMHHi6apU" start="155" end="388" title="Journey through a supernova."  %}
+{% include youtube.html 
+   id="COxMHHi6apU" 
+   start="155" 
+   end="388" 
+   thumb="nova.jpg" 
+   title="Journey through a supernova." %}
 
 
 ### A Listener's Guide:
