@@ -164,3 +164,53 @@ img.inline-spinner {
 .video-caption strong {
     color: #00f2ff;
 }
+/* ==========================================================================
+   4. CONTACT SECTION (Teal-Blue Theme)
+   ========================================================================== */
+
+#contact {
+    background-color: #1a3d4c !important; /* Medium-Dark Teal-Blue */
+    color: #ffffff !important;
+}
+
+/* Ensure the Section Heading and Star are white */
+#contact h2, 
+#contact hr.star-primary {
+    color: #ffffff !important;
+}
+
+#contact hr.star-primary:after {
+    background-color: #1a3d4c !important; /* Matches section bg */
+    color: #ffffff !important;
+}
+
+/* Form Input Styling */
+#contact .form-control {
+    background-color: rgba(255, 255, 255, 0.1) !important; /* Semi-transparent */
+    border: 1px solid #00f2ff !important; /* Neon Blue border */
+    color: #ffffff !important;
+}
+
+#contact .form-control:focus {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+    box-shadow: 0 0 10px #00f2ff !important;
+}
+
+/* Change Placeholder text color (the text inside empty boxes) */
+#contact ::placeholder {
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+
+/* The Submit Button */
+#contact .btn-success {
+    background-color: #00f2ff !important;
+    border-color: #00f2ff !important;
+    color: #0d1017 !important; /* Dark text for contrast */
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#contact .btn-success:hover {
+    background-color: #ffffff !important;
+    box-shadow: 0 0 15px #00f2ff;
+}
