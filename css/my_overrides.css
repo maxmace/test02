@@ -1,3 +1,40 @@
+/* 1. Main Portfolio Section on the Landing Page */
+#portfolio {
+    background-color: #0E1A30 !important;
+    color: #ffffff !important;
+}
+
+/* Ensure the heading and star icon in this section are white */
+#portfolio h2, 
+#portfolio hr.star-primary {
+    color: #ffffff !important;
+}
+
+#portfolio hr.star-primary:after {
+    background-color: #0E1A30 !important;
+    color: #ffffff !important;
+}
+
+/* 2. Portfolio Popups (Modals) */
+.portfolio-modal .modal-content {
+    background-color: #0E1A30 !important;
+    color: #ffffff !important;
+}
+
+/* Force left alignment for descriptions within modals (as previously discussed) */
 .portfolio-modal .modal-body p {
     text-align: left !important;
+}
+
+/* Ensure modal buttons and headers are visible against the dark background */
+.portfolio-modal h2, 
+.portfolio-modal .item-intro,
+.portfolio-modal ul {
+    color: #ffffff !important;
+}
+
+/* The "Close" button 'X' at the top right of modals */
+.portfolio-modal .close-modal .lr,
+.portfolio-modal .close-modal .lr .rl {
+    background-color: #ffffff !important;
 }
