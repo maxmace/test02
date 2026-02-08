@@ -2,7 +2,7 @@
 layout: post
 title:  "Supernova"
 date:   2023-07-16 11:08:10 -0500
-img: img/portfolio/solstice.png
+img: img/portfolio/solstice-post.png
 modalID: modalSolstice
 category: Planetarium
 ---
