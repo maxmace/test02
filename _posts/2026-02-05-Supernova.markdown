@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Supernova"
-date:   2026-02-05 11:08:10 -0500
+date:   2023-07-16 11:08:10 -0500
 img: img/portfolio/supernova.png
 modalID: modalSupernova
 category: Design
