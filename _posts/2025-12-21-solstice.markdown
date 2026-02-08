@@ -1,0 +1,27 @@
+---
+layout: post
+title:  "Supernova"
+date:   2023-07-16 11:08:10 -0500
+img: img/portfolio/solstice.png
+modalID: modalSolstice
+category: Planetarium
+---
+# Solstice: Meditations on an Appalachian Carol
+## Epic Cinematic Soundscape for synthesizer & Mellotron
+
+{% include youtube.html 
+   id="u6sYuqQw5IY?si" 
+   title="Solstice: Meditations on an Appalachian Carol -Epic Cinematic Soundscape for synthesizer & Mellotron" %}
+
+### A Listener's Guide:
+Holiday Planetarium music for stargazing under Yuletide skies. Dynamic synthesizer setting for Appalachian carol "I Wonder as I Wander".  
+
+Completed and published on the winter solstice, the longest night of the year for skywatching...or anything, really.
+
+Original arrangement and orchestral theme © 2025 M. André Wynkoop.
+
+Traditional Appalachian melody attributed to Annie Morgan. John Jacob Niles' copyrighted lyrics and arrangement were not used. 
+
+No AI tools were used in this production. 
+
+Additional video footage courtesy Pexels.
