@@ -1,31 +1,5 @@
-<style>
-  .hollow-text {
-    font-size: 60px;
-    font-weight: bold;
-    color: transparent;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #ffffff; /* White outline */
-    
-    /* Layered glow effect: Inner glow + Outer bloom */
-    text-shadow: 
-      0 0 2px rgba(255, 255, 255, 0.8), 
-    /*    0 0 4px rgba(0, 212, 255, 0.5); */
-    
-    text-transform: uppercase;
-    display: inline-block;
-  }
-.didact-style {
-  font-family: 'Didact Gothic', sans-serif;
-  /* Optional styling to match Century Gothic's clean look */
-  font-weight: 400;
-  line-height: 1.6;
-}
-</style>     
-
-<!-- Navigation -->
 <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
     <div class="container">
-        <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header page-scroll">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                 <span class="sr-only">Toggle navigation</span>
@@ -35,24 +9,14 @@
             </button>
             <a class="navbar-brand hollow-text" href="#page-top">{{ site.title }}</a>
         </div>
-        <!-- Collect the nav links, forms, and other content for toggling -->
+
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
-                <li class="hidden">
-                    <a href="#page-top"></a>
-                </li>
-                <li class="page-scroll">
-                    <a href="#about">About</a>
-                </li>
-                <li class="page-scroll">
-                    <a href="#portfolio">Portfolio</a>
-                </li>
-                <li class="page-scroll">
-                    <a href="#contact">Contact</a>
-                </li>
+            <ul class="nav navbar-nav navbar-right didact-style">
+                <li class="hidden"><a href="#page-top"></a></li>
+                <li class="page-scroll"><a href="#about">About</a></li>
+                <li class="page-scroll"><a href="#portfolio">Portfolio</a></li>
+                <li class="page-scroll"><a href="#contact">Contact</a></li>
             </ul>
         </div>
-        <!-- /.navbar-collapse -->
     </div>
-    <!-- /.container-fluid -->
 </nav>
