@@ -1,8 +1,10 @@
+{% capture unique_id %}{{ include.id }}-{{ 1000 | rand: 9999 }}{% endcapture %}
+
 <div class="video-block">
-    <div class="video-container" id="container-{{ include.id }}">
+    <div class="video-container" id="container-{{ unique_id }}">
         {% if include.thumb %}
         <div class="video-thumb-wrapper" 
-             onclick="loadVideo('{{ include.id }}', '{{ include.start }}', '{{ include.end }}', 'container-{{ include.id }}')">
+             onclick="loadVideo('{{ include.id }}', '{{ include.start }}', '{{ include.end }}', 'container-{{ unique_id }}')">
             
             <img src="{{ '/img/' | append: include.thumb | relative_url }}" 
                  alt="{{ include.title }}" 
@@ -11,7 +13,11 @@
             <div class="play-overlay"></div>
         </div>
         {% else %}
-        <iframe src="https://www.youtube.com/embed/{{ include.id }}?{% if include.start %}start={{ include.start }}{% endif %}{% if include.end %}&end={{ include.end }}{% endif %}" frameborder="0" allowfullscreen></iframe>
+        <iframe 
+            src="https://www.youtube.com/embed/{{ include.id }}?{% if include.start %}start={{ include.start }}{% endif %}{% if include.end %}&end={{ include.end }}{% endif %}" 
+            frameborder="0" 
+            allowfullscreen>
+        </iframe>
         {% endif %}
     </div>
 
@@ -23,12 +29,14 @@
 </div>
 
 <script>
-function loadVideo(id, start, end, containerId) {
-    var container = document.getElementById(containerId);
-    var url = "https://www.youtube.com/embed/" + id + "?autoplay=1";
-    if (start) url += "&start=" + start;
-    if (end) url += "&end=" + end;
-    
-    container.innerHTML = '<iframe src="' + url + '" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width:100%; height:100%; position:absolute; top:0; left:0;"></iframe>';
+if (typeof loadVideo !== 'function') {
+    function loadVideo(id, start, end, containerId) {
+        var container = document.getElementById(containerId);
+        var url = "https://www.youtube.com/embed/" + id + "?autoplay=1&rel=0";
+        if (start && start !== "") url += "&start=" + start;
+        if (end && end !== "") url += "&end=" + end;
+        
+        container.innerHTML = '<iframe src="' + url + '" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="width:100%; height:100%; position:absolute; top:0; left:0;"></iframe>';
+    }
 }
 </script>
