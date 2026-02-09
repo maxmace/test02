@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "Long Distance Voyager"
+date:   2025-04-06 11:08:10 -0500
+img: img/portfolio/voyager-post.png
+modalID: modalVoyager
+category: Planetarium
+---
+### Long Distance Voyager
+
+{% include youtube.html 
+   id="go86YLzHwFM" 
+   thumb="img/vid/voyager-vid.png" 
+   title="Long Distance Voyager" %}
