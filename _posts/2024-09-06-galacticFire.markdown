@@ -2,7 +2,7 @@
 layout: post
 title:  "Supernova"
 date:   2023-07-16 11:08:10 -0500
-img: img/portfolio/supernova.png
+img: img/portfolio/galacticFire-post.png
 modalID: modalGalacticFire
 category: Planetarium
 ---
@@ -14,7 +14,7 @@ The Jagged Gyre of Galactic Fire is a 3-part planetarium overture in a cinematic
 
 {% include youtube.html 
    id="oXDGPfODu0s" 
-   thumb="galacticFire-post.png" 
+   thumb="img/vid/galacticFire-vid.png" 
    title="Jagged Gyre of Galactic Fire" %}
 
 ### A Listener's Guide:
