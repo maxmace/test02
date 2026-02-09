@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Going for a Ride on Halloween Night"
-date:   2023-07-16 11:08:10 -0500
+date:   2025-10-29 11:08:10 -0500
 img: img/portfolio/HalloweenNight-post.png
 modalID: modalHalloweenNight
 category: Halloween
