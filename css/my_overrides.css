@@ -11,7 +11,7 @@ header,
     color: #ffffff !important;
 }
 
-/* Modal text alignment: Force everything left */
+/* Modal text alignment & Layout */
 .portfolio-modal .modal-body p,
 .portfolio-modal .modal-body h1,
 .portfolio-modal .modal-body h2,
@@ -48,7 +48,7 @@ header,
 }
 
 /* ==========================================================================
-   2. HEADER & ANIMATION
+   2. HEADER, ANIMATION & SECTION ELEMENTS
    ========================================================================== */
 
 @keyframes spin {
@@ -83,17 +83,30 @@ img.inline-spinner {
     width: 200px !important;
 }
 
-/* =========== removing Didact Gothic - it doesn't look like centruty gothic
-.custom-font-stack {
-    font-family: "Century Gothic", "Apple Gothic", "Didact Gothic", sans-serif !important;
-}
 /* ==========================================================================
-
-/* ==========================================================================
-   3. VIDEO PLAYER & THUMBNAILS
+   3. ABOUT SECTION OVERRIDES
    ========================================================================== */
 
-/* The Responsive Container (Essential for the iframe swap) */
+.about-reference-box {
+    color: #fff995 !important;
+    border: 1px solid #ccc !important;
+    padding: 8px 12px;
+    font-size: 0.7rem; /* Small but readable */
+    display: inline-block;
+    margin-top: 15px;
+    line-height: 1.4;
+}
+
+.about-reference-box strong {
+    color: #fff995;
+    letter-spacing: 1px;
+}
+
+/* ==========================================================================
+   4. VIDEO PLAYER & THUMBNAILS
+   ========================================================================== */
+
+/* The Responsive Container */
 .video-container {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
@@ -101,37 +114,42 @@ img.inline-spinner {
     overflow: hidden;
     background-color: #000;
     border-radius: 8px;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+    padding-top: 2px;
 }
 
 /* Forces the iframe or image to fill the container */
-.video-container iframe,
-.video-container .video-thumb-wrapper {
+.video-container iframe {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
 }
 
 /* The Thumbnail Wrapper */
 .video-thumb-wrapper {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
     cursor: pointer;
-    border: 2px solid #00f2ff;
+    overflow: hidden;
+    border-radius: 8px;
+    border: 2px solid #00f2ff !important;
     box-shadow: 0 0 15px rgba(0, 242, 255, 0.4);
-    transition: transform 0.3s ease;
-    margin: 0; 
-    display: flex; /* Helps eliminate tiny sub-pixel gaps at the bottom of images */
+    box-sizing: border-box;
+    display: flex;
+}
+
+.video-thumb-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /* The Play Button Overlay */
 .play-overlay {
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 50%; left: 50%;
     transform: translate(-50%, -50%);
-    width: 60px;
-    height: 60px;
+    width: 60px; height: 60px;
     background: rgba(0, 0, 0, 0.6);
     border: 3px solid #ffffff;
     border-radius: 50%;
@@ -142,15 +160,13 @@ img.inline-spinner {
 .play-overlay::after {
     content: "";
     position: absolute;
-    top: 50%;
-    left: 55%;
+    top: 50%; left: 55%;
     transform: translate(-50%, -50%);
     border-style: solid;
     border-width: 12px 0 12px 20px;
     border-color: transparent transparent transparent #ffffff;
 }
 
-/* Hover States for Video */
 .video-thumb-wrapper:hover .play-overlay {
     background: rgba(0, 242, 255, 0.8);
     border-color: #00f2ff;
@@ -158,7 +174,6 @@ img.inline-spinner {
     transform: translate(-50%, -50%) scale(1.1);
 }
 
-/* Video Caption Styling */
 .video-caption {
     font-family: "Century Gothic", sans-serif !important;
     font-size: 0.9em;
@@ -169,59 +184,28 @@ img.inline-spinner {
     color: #00f2ff;
 }
 
-/* Update the wrapper to ensure the border is visible on all sides */
-.video-thumb-wrapper {
-    position: absolute; /* Ensures it fills the relative container */
-    top: 0; left: 0; right: 0; bottom: 0;
-    cursor: pointer;
-    overflow: hidden;
-    border-radius: 8px;
-    border: 2px solid #00f2ff !important; /* Force the teal border */
-    box-shadow: 0 0 15px rgba(0, 242, 255, 0.4);
-    box-sizing: border-box; /* Ensures border is included in width/height */
-}
-
-/* Ensure the image fills the 16:9 space without gaps */
-.video-thumb-wrapper img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover; /* This prevents the bottom-gap issue */
-}
-
-/* Adjust the container to make sure it doesn't clip the shadow */
-.video-container {
-    position: relative;
-    padding-bottom: 56.25%; /* 16:9 */
-    height: 0;
-    margin-bottom: 20px;
-    background-color: #000;
-    border-radius: 8px;
-    padding-top: 2px; /* Slight buffer for the top border */
-}
 /* ==========================================================================
-   4. CONTACT SECTION (Teal-Blue Theme)
+   5. CONTACT SECTION
    ========================================================================== */
 
 #contact {
-    background-color: #1a3d4c !important; /* Medium-Dark Teal-Blue */
+    background-color: #1a3d4c !important;
     color: #ffffff !important;
 }
 
-/* Ensure the Section Heading and Star are white */
 #contact h2, 
 #contact hr.star-primary {
     color: #ffffff !important;
 }
 
 #contact hr.star-primary:after {
-    background-color: #1a3d4c !important; /* Matches section bg */
+    background-color: #1a3d4c !important;
     color: #ffffff !important;
 }
 
-/* Form Input Styling */
 #contact .form-control {
-    background-color: rgba(255, 255, 255, 0.1) !important; /* Semi-transparent */
-    border: 1px solid #00f2ff !important; /* Neon Blue border */
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border: 1px solid #00f2ff !important;
     color: #ffffff !important;
 }
 
@@ -230,16 +214,14 @@ img.inline-spinner {
     box-shadow: 0 0 10px #00f2ff !important;
 }
 
-/* Change Placeholder text color (the text inside empty boxes) */
 #contact ::placeholder {
     color: rgba(255, 255, 255, 0.6) !important;
 }
 
-/* The Submit Button */
 #contact .btn-success {
     background-color: #00f2ff !important;
     border-color: #00f2ff !important;
-    color: #0d1017 !important; /* Dark text for contrast */
+    color: #0d1017 !important;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -250,31 +232,22 @@ img.inline-spinner {
 }
 
 /* ==========================================================================
-   5. NAVBAR & RESPONSIVE TEXT (REVERTED FONTS)
+   6. NAVBAR & RESPONSIVE DESIGN
    ========================================================================== */
 
-/* This targets the Brand Title specifically to prevent bleeding */
 .navbar-custom .navbar-brand.hollow-navbar-title {
     color: transparent !important;
     -webkit-text-stroke: 1px #ffffff !important;
     text-transform: uppercase;
     text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
-    
-    /* Responsive sizing: Mobile First */
     font-size: 20px !important; 
     height: auto !important;
-    padding: 15px 15px; /* Standard Bootstrap vertical alignment */
+    padding: 15px 15px;
 }
 
-/* Desktop Scaling (Screens wider than 768px) */
 @media (min-width: 768px) {
     .navbar-custom .navbar-brand.hollow-navbar-title {
-        font-size: 35px !important; /* Larger, but safe for most titles */
+        font-size: 35px !important;
         -webkit-text-stroke: 1.5px #ffffff !important;
     }
 }
-
-/* To revert to original fonts: 
-   We simply remove the 'didact-style' and 'custom-font-stack' 
-   overrides from this file. 
-*/
