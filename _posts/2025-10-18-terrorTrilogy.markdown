@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Space Age Terror Trilogy"
-date:   2023-07-16 11:08:10 -0500
-img: img/portfolio/galacticFire-post.png
+date:   2025-10-18 11:08:10 -0500
+img: img/portfolio/terrorTrilogy-post.png
 modalID: modalTerrorTrilogy
 category: Halloween
 ---
