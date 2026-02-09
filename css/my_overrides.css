@@ -91,7 +91,7 @@ img.inline-spinner {
     color: #fff995 !important;
     border: 1px solid #ccc !important;
     padding: 8px 12px;
-    font-size: 1.7rem; /* Smaller */
+    font-size: 1.0rem; /* Smaller */
     display: inline-block;
     margin-top: 15px;
     line-height: 1.4;
