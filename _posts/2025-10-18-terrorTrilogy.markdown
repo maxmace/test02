@@ -11,7 +11,7 @@ category: Halloween
 
 {% include youtube.html 
    id="sC9lpiwaIPk" 
-   thumb="img/vid/terrorTrilogy-vid.png" 
+   /* thumb="img/vid/terrorTrilogy-vid.png" */
    title="Space Age Terror Trilogy" %}
 
 Three (or more!) terrifying title tunes. Conflicting time signatures. Polyrhythms. If someone could interpolate all three cues in one arrangement, that would be spooky!
