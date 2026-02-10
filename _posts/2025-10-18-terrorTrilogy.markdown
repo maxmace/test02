@@ -59,6 +59,6 @@ So the idea here is that I would adapt Halloween III, Suspiria, and Zombie 2 to 
 
 "Interpolated" for your listening pleasure.
 
---André
---October 23, 2025
---Space Coast, FL
+-André
+-October 23, 2025
+-Space Coast, FL
