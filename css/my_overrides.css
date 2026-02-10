@@ -77,6 +77,33 @@ header,
 .portfolio-modal .close-modal .lr .rl {
     background-color: #ffffff !important;
 }
+/* ==========================================================================
+   PORTFOLIO MODAL TEXT COLOR OVERRIDE
+   ========================================================================== */
+
+/* Default text color inside portfolio modals */
+.portfolio-modal .modal-content {
+    color: #9adfff; /* light blue */
+}
+
+/* Headings inside portfolio modals */
+.portfolio-modal .modal-content h1,
+.portfolio-modal .modal-content h2,
+.portfolio-modal .modal-content h3,
+.portfolio-modal .modal-content h4,
+.portfolio-modal .modal-content h5,
+.portfolio-modal .modal-content h6 {
+    color: #c6f1ff; /* slightly brighter for hierarchy */
+}
+
+/* Links inside portfolio modals */
+.portfolio-modal .modal-content a {
+    color: #00f2ff;
+}
+
+.portfolio-modal .modal-content a:hover {
+    color: #ffffff;
+}
 
 
 /* ==========================================================================
