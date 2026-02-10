@@ -12,3 +12,26 @@ category: Planetarium
    id="ElWY7UdBuUE" 
    thumb="img/vid/bach_13-vid.png" 
    title="Bach 13: The Secret Clock at the Heart of the Universe" %}
+
+Modern electronic tonalities for listening and relaxation. This study represents a Switched-On retro-planetarium Moog synthesizer tribute to the music of Wendy Carlos and Isao Tomita.
+
+- 00:00 Listener's Guide
+- 06:37 Bach 13 (for laser and synthesizer)
+- 08:00 The Secret Clock at the Heart of the Universe
+
+Although several vintage hardware units contribute to this recording, only one of them is an actual Moog product. In the spirit of Switched-On Bach 2000, I leave it to the listener as an exercise in identification.
+
+No AI tools were used in the creation, performance, or production of this music. It was arranged, performed, and recorded by a human being with feelings who uses the oxford comma inconsistently throughout the listeners notes.
+
+Both of the artists of focus for this recording released treatments of the same two part invention during the 20th century. They differ significantly from what I have premiered here, and I encourage you to seek them out.
+
+Carlos interpretation (1973)
+https://www.discogs.com/release/21655...
+
+Tomita interpretation (1996)
+https://www.discogs.com/release/29045...
+
+#### Credits:
+Speaking of "tonalities", visit synth wizard <a href="https://www.youtube.com/@9KznfiS87f7">Kirk Slinkard’s channel @9KznfiS87f7</a> to hear the best sounds and learn how they were crafted. The white noise and PWM patches heard in this recording were accomplished through techniques detailed in his videos.
+
+Some video elements courtesy Pexels.
