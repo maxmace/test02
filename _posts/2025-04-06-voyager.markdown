@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio
 title:  "Long Distance Voyager"
 date:   2025-04-06 11:08:10 -0500
 img: img/portfolio/voyager-post.png
