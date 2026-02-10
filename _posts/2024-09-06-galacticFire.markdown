@@ -18,7 +18,7 @@ The Jagged Gyre of Galactic Fire is a 3-part planetarium overture in a cinematic
    title="Jagged Gyre of Galactic Fire" %}
 
 ### A Listener's Guide:
-####The Soundstage:
+#### The Soundstage:
 Big stereo sound is baked into this mix. As with most of my music, it exists as surround stems intended for multi channel performance. Atmos users will benefit from the Dolby Surround DSU setting. The encoded surround should unfold well with most matrix decoders.
 
 #### The structure:
