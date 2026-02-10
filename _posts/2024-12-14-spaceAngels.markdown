@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio
 title:  "Space Angels"
 date:   2024-12-14 11:08:10 -0500
 img: img/portfolio/spaceAngels-post.png
