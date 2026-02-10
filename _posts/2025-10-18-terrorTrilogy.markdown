@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio
 title:  "Space Age Terror Trilogy"
 date:   2025-10-18 11:08:10 -0500
 img: img/portfolio/terrorTrilogy-post.png
