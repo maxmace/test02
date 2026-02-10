@@ -13,3 +13,15 @@ category: Holiday
    id="k0tFg6SawD0" 
    thumb="img/vid/spaceAngels.png" 
    title="Space Angels" %}
+
+A 1970s-style planetarium laser rock odyssey for the holidays.
+
+Possibly the world's first retro planetarium Christmas track!
+
+This video contains both a Listener's Guide and the original cinematic track "Space Angels", a new planetarium composition interpolating melodies from a couple traditional Christmas carols.
+
+- 00:00 Logo
+- 00:24 Listener's Guide
+- 03:25 Space Angels
+
+Many thanks to  Pexels for video footage.
