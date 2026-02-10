@@ -1,4 +1,35 @@
 /* ==========================================================================
+   0. PORTFOLIO GRID LAYOUT FIX (FLEXBOX)
+   ========================================================================== */
+
+/*
+   Fixes desktop-only "blank gaps" caused by Bootstrap 3 float wrapping
+   when child elements use absolute positioning.
+   This affects ONLY the portfolio grid.
+*/
+
+#portfolio .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#portfolio .portfolio-item {
+    float: none !important;   /* Disable Bootstrap float */
+    display: flex;
+}
+
+/* Ensure links/images stretch correctly inside flex items */
+#portfolio .portfolio-link {
+    width: 100%;
+}
+
+#portfolio img.img-responsive {
+    width: 100%;
+    height: auto;
+}
+
+
+/* ==========================================================================
    1. GLOBAL THEME & MODAL OVERRIDES
    ========================================================================== */
 
@@ -47,6 +78,7 @@ header,
     background-color: #ffffff !important;
 }
 
+
 /* ==========================================================================
    2. HEADER, ANIMATION & SECTION ELEMENTS
    ========================================================================== */
@@ -71,17 +103,20 @@ img.inline-spinner {
     color: transparent !important;
     -webkit-text-stroke: 2px #ffffff !important;
     text-transform: uppercase !important;
-    text-shadow: 0 0 15px rgba(255, 255, 255, 1), 0 0 30px rgba(0, 212, 255, 0.8) !important;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 1),
+                 0 0 30px rgba(0, 212, 255, 0.8) !important;
 }
 
 .star-light-custom {
     border: none !important;
     height: 2px !important;
     background-color: #00f2ff !important;
-    box-shadow: 0 0 15px #00f2ff, 0 0 25px #00f2ff !important;
+    box-shadow: 0 0 15px #00f2ff,
+                0 0 25px #00f2ff !important;
     margin: 25px auto !important;
     width: 200px !important;
 }
+
 
 /* ==========================================================================
    3. ABOUT SECTION OVERRIDES
@@ -91,7 +126,7 @@ img.inline-spinner {
     color: #fff995 !important;
     border: 1px solid #ccc !important;
     padding: 8px 12px;
-    font-size: 1.0rem; /* Smaller */
+    font-size: 1.0rem;
     display: inline-block;
     margin-top: 15px;
     line-height: 1.4;
@@ -102,14 +137,14 @@ img.inline-spinner {
     letter-spacing: 1px;
 }
 
+
 /* ==========================================================================
    4. VIDEO PLAYER & THUMBNAILS
    ========================================================================== */
 
-/* The Responsive Container */
 .video-container {
     position: relative;
-    padding-bottom: 56.25%; /* 16:9 Aspect Ratio */
+    padding-bottom: 56.25%;
     height: 0;
     overflow: hidden;
     background-color: #000;
@@ -118,14 +153,13 @@ img.inline-spinner {
     padding-top: 2px;
 }
 
-/* Forces the iframe or image to fill the container */
 .video-container iframe {
     position: absolute;
     top: 0; left: 0;
-    width: 100%; height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
-/* The Thumbnail Wrapper */
 .video-thumb-wrapper {
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
@@ -144,12 +178,12 @@ img.inline-spinner {
     object-fit: cover;
 }
 
-/* The Play Button Overlay */
 .play-overlay {
     position: absolute;
     top: 50%; left: 50%;
     transform: translate(-50%, -50%);
-    width: 60px; height: 60px;
+    width: 60px;
+    height: 60px;
     background: rgba(0, 0, 0, 0.6);
     border: 3px solid #ffffff;
     border-radius: 50%;
@@ -184,6 +218,7 @@ img.inline-spinner {
     color: #00f2ff;
 }
 
+
 /* ==========================================================================
    5. CONTACT SECTION
    ========================================================================== */
@@ -193,7 +228,7 @@ img.inline-spinner {
     color: #ffffff !important;
 }
 
-#contact h2, 
+#contact h2,
 #contact hr.star-primary {
     color: #ffffff !important;
 }
@@ -231,6 +266,7 @@ img.inline-spinner {
     box-shadow: 0 0 15px #00f2ff;
 }
 
+
 /* ==========================================================================
    6. NAVBAR & RESPONSIVE DESIGN
    ========================================================================== */
@@ -240,7 +276,7 @@ img.inline-spinner {
     -webkit-text-stroke: 1px #ffffff !important;
     text-transform: uppercase;
     text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
-    font-size: 20px !important; 
+    font-size: 20px !important;
     height: auto !important;
     padding: 15px 15px;
 }
