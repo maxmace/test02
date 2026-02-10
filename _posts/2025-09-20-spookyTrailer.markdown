@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio
 title:  "Spooky Season teaser trailer"
 date:   2025-09-20 11:08:10 -0500
 img: img/portfolio/spookyTrailer-post.png
