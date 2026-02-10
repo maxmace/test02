@@ -6,8 +6,8 @@ img: img/portfolio/solstice-post.png
 modalID: modalSolstice
 category: Planetarium
 ---
-# Solstice: Meditations on an Appalachian Carol
-## Epic Cinematic Soundscape for synthesizer & Mellotron
+### Solstice: Meditations on an Appalachian Carol
+#### Epic Cinematic Soundscape for synthesizer & Mellotron
 
 {% include youtube.html 
    id="u6sYuqQw5IY?si" 
