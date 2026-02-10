@@ -23,7 +23,7 @@ No Sampling. No AI. This is a new recording of a new performance.
 ---
 
 #### LISTENER NOTES
-I first came across the word ["interpolated"](https://en.wikipedia.org/wiki/Interpolation_(classical_music) in a musical context-or indeed any context-when I was 8 or 9 years old and discovered that John Williams interpolated a stealth version of "When You Wish Upon a Star" into his music for "Close Encounters of the Third Kind". It was a strange word and an exotic idea. I worked extra-hard in wrapping my brain around it.
+I first came across the word ["interpolated"](https://en.wikipedia.org/wiki/Interpolation_(classical_music)) in a musical context-or indeed any context-when I was 8 or 9 years old and discovered that John Williams interpolated a stealth version of "When You Wish Upon a Star" into his music for "Close Encounters of the Third Kind". It was a strange word and an exotic idea. I worked extra-hard in wrapping my brain around it.
 
 Flash forward and I'm a classically trained composer who should be able to execute a little interpolation of my own.
 
