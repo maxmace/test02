@@ -37,5 +37,5 @@ The original idea for the visuals was a tour of Matt's elaborate Halloween extra
 
 I enjoyed working with Disney's newly public domain Haunted House cartoon, a companion to the more famous "Skeleton Dance". Aside from the tinting, I did a few additional color holdouts and extensions, changing the focus of the final iris-out.
 
-#### VALEDICTION:
+#### METAFICTION VALEDICTION:
 In the spirit of the season, to paraphrase Orson Welles, "That grinning, glowing, globular invader in your living room is an inhabitant of the pumpkin patch. And if your doorbell rings and nobody’s there. . . it’s Halloween!"
