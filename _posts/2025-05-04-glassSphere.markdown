@@ -16,7 +16,7 @@ category: Planetarium
 
 The Holographic Principle is our cosmic pretext for examining the more euphoric regions of propulsive Space Music.
 
-"Inside a Glass Sphere" is a 70’s - inspired epic cinematic planetarium opus. If you sat down in a cool planetarium on a hot day 50 years ago to experience some of that newfangled laser rock, I imagine this is the kind of ultimate trip you might experience. 
+"Inside a Glass Sphere" is a 70’s - inspired epic cinematic planetarium opus. If you sat down in a cool planetarium on a hot day a half-century ago to experience some of that newfangled laser rock, I imagine this is the kind of ultimate trip you might experience. 
 
 - 00:00 Listener Notes
 - 02:47 Inside a Glass Sphere
