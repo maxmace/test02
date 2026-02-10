@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio
 title:  "Temporal Transit Of A Superluminal Sea"
 date:   2025-07-24 11:08:10 -0500
 img: img/portfolio/superluminalSea-post.png
