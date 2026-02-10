@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio
 title:  "Inside a Glass Sphere"
 date:   2025-05-04 11:08:10 -0500
 img: img/portfolio/glassSphere-post.png
