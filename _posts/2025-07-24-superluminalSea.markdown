@@ -14,12 +14,12 @@ category: Tribute
    thumb="img/vid/superluminalSea-vid.png" 
    title="Temporal Transit Of A Superluminal Sea" %}
 
-00:00 Introduction
-02:57 Temporal Transit Of A Superluminal Sea
-13:10  Listener Notes
+- 00:00 Introduction
+- 02:57 Temporal Transit Of A Superluminal Sea
+- 13:10  Listener Notes
 
-Cinematic Ambient Fusion. A salute to the long running radio program Music from the Hearts of Space https://www.hos.com. 
---Tip of the hat to popular ambient producer @s1gns0fl1fe
+Cinematic Ambient Fusion. A salute to the long running radio program <a href="https://www.hos.com">Music from the Hearts of Space</a>. 
+--Tip of the hat to popular ambient producer <a href="https://www.youtube.com/@s1gns0fl1fe">@s1gns0fl1fe<\a>
 
 Listen to this music any way you wish! It has been deliberately composed and engineered to function as effective background but also reward active listening. 
 
@@ -29,7 +29,7 @@ The all-encompassing sound of ocean surf you hear on this recording is neither a
 You will hear unprocessed instances of the gong on this recording, but when coupled with the vintage Alesis algorithms, the uncorrelated stereo wash of the electric surf becomes iconic and powerful, reminiscent of "The Psychologically Ultimate Seashore" from  Irv Teibel's classic 1968 "Environments 1" recording.
 
 #### Imagery credits:
-ESO
-NASA
-Hubble Deep Field
-Pexels
+- ESO
+- NASA
+- Hubble Deep Field
+- Pexels
