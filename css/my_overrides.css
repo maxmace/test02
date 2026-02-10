@@ -39,8 +39,13 @@ header,
 .portfolio-modal .modal-content {
     background-color: #0d1017 !important;
     background-image: none !important;
-    color: #ffffff !important;
 }
+
+/* Default modal text color */
+.portfolio-modal .modal-content {
+    color: #9adfff;
+}
+
 
 /* Modal text alignment & Layout */
 .portfolio-modal .modal-body p,
