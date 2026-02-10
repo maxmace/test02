@@ -12,3 +12,5 @@ category: Halloween
    id="35IJ8yVKf48" 
    thumb="img/vid/spookyTrailer-vid.png" 
    title="Spooky Season teaser trailer" %}
+#### Sometimes videos are released. 
+#### And sometimes they escape.
