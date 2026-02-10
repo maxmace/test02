@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: portfolio
 title:  "Bach 13: The Secret Clock at the Heart of the Universe"
 date:   2025-02-10 11:08:10 -0500
 img: img/portfolio/bach_13-post.png
