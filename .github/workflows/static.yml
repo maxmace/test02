@@ -1,7 +1,7 @@
 name: Deploy Static Content
 on:
   push:
-    branches: ["main"] # Change to "master" if that is your default branch name
+    branches: ["master"] # Updated to match your branch name
 permissions:
   contents: read
   pages: write
@@ -20,7 +20,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: '.' # This uploads your whole folder
+          path: '.' 
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
