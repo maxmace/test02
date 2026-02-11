@@ -19,7 +19,7 @@ markdown: kramdown
 highlighter: rouge
 
 # This line tells GitHub which theme to fetch!
-remote_theme: "y7kim/jekyll-agency"
+remote_theme: "raviriley/agency-jekyll-theme"
 
 # Exclude metadata from the final build
 exclude:
