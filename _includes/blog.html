@@ -1,0 +1,38 @@
+<section id="articles" style="background-color: #0d1017; padding: 100px 0;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="hollow-text" style="font-size: 50px !important;">Articles</h2>
+                <hr class="star-light-custom">
+                <h3 class="section-subheading" style="color: #9adfff; margin-bottom: 50px;">Technical deep-dives and studio notes.</h3>
+            </div>
+        </div>
+
+        <div class="row article-flex-grid">
+            {% for post in site.posts %}
+                {% if post.layout == "post" %}
+                <div class="col-sm-4 article-item">
+                    <a href="{{ post.url | relative_url }}" class="article-link">
+                        <div class="article-text-container">
+                            <div class="article-content-box">
+                                <p class="article-meta-date">{{ post.date | date: "%B %d, %Y" }}</p>
+                                <h4 class="article-title-text">{{ post.title }}</h4>
+                                {% if post.subtitle %}
+                                    <h5 class="article-subtitle-text">{{ post.subtitle }}</h5>
+                                {% endif %}
+                                <div class="article-divider-cyan"></div>
+                                <p class="article-abstract-text">{{ post.abstract | truncatewords: 25 }}</p>
+                            </div>
+                        </div>
+                        <div class="article-image-box">
+                            <img src="{{ site.baseurl }}/{{ post.img }}" 
+                                 class="img-responsive article-bg-img" 
+                                 alt="{{ post.title }}">
+                        </div>
+                    </a>
+                </div>
+                {% endif %}
+            {% endfor %}
+        </div>
+    </div>
+</section>
