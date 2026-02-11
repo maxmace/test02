@@ -2,7 +2,7 @@
 layout: post
 title: "The Philosophy of Synthesis"
 subtitle: "Beyond the Voltage Controlled Oscillator"
-date: 2026-02-11 12:00:00 -0500
+date: 2026-02-10 12:00:00 -0500
 img: img/portfolio/voyager-post.png
 abstract: "An exploration into why 1970s hardware interface design continues to dictate the workflow of modern digital planetarium scores."
 category: Articles
@@ -19,7 +19,7 @@ In the realm of cinematic space music, the argument often shifts from the *sound
 
 This article serves as the first in a series of technical deep-dives into the **Memory Wheel** studio workflow. We will examine the specific signal chains used in recent planetarium commissions and how "bland" textures often provide the most effective foundation for complex celestial visuals.
 
----
+***
 
 > "The machine does not make the music; it merely provides the grid upon which the ghost can play." 
 > — *Studio Note, 2025*
