@@ -18,11 +18,16 @@ address_zip: ""
 markdown: kramdown
 highlighter: rouge
 
+# This line tells GitHub which theme to fetch!
+remote_theme: "y7kim/jekyll-agency"
+
 # Exclude metadata from the final build
 exclude:
   - .github
   - Gemfile
   - Gemfile.lock
+
+# Plugins must be listed for the remote theme to work
 plugins:
   - jekyll-remote-theme
   - jekyll-gist
