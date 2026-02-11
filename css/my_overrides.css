@@ -46,6 +46,22 @@ header,
 a { color: #00f2ff; transition: all 0.3s ease; }
 a:hover { color: #ffffff; text-decoration: none; }
 
+/* Ensure Portfolio header matches ABOUT and CONTACT */
+#portfolio h2 {
+    color: #ffffff !important;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* Ensure the star divider icon in the portfolio section is also white */
+#portfolio hr.star-primary,
+#portfolio hr.star-primary:after {
+    border-color: #ffffff !important;
+    color: #ffffff !important;
+    background-color: #0d1017 !important; /* Matches portfolio background */
+}
+
 /* ==========================================================================
    2. HOLLOW TEXT & COSMIC ANIMATIONS
    ========================================================================== */
