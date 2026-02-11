@@ -31,6 +31,10 @@
    1. GLOBAL THEME & SECTION OVERRIDES
    ========================================================================== */
 
+body {
+    background-color: #0d1017 !important;
+}
+
 header, 
 #portfolio,
 #articles {
@@ -136,8 +140,6 @@ img.inline-spinner {
     box-shadow: 0 0 20px #00f2ff;
 }
 
-.video-caption { font-family: "Century Gothic", sans-serif; font-size: 0.9em; margin-top: 10px; color: #d1d5db; }
-
 /* ==========================================================================
    4. ARTICLES (DUSTY INDIGO) & CONTENT PAGES
    ========================================================================== */
@@ -203,8 +205,56 @@ img.inline-spinner {
 }
 
 /* ==========================================================================
-   6. FOOTER & SOCIAL BUTTONS
+   6. CONTACT SECTION (UNIFIED DARK TEAL)
    ========================================================================== */
+
+#contact {
+    background-color: #1a3d4c !important; /* The Dark Teal */
+    color: #ffffff !important;
+    padding: 100px 0;
+    margin: 0 !important; /* Removes the black band above */
+}
+
+#contact h2, #contact hr.star-primary {
+    color: #ffffff !important;
+}
+
+#contact .form-control {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border: 1px solid #00f2ff !important;
+    color: #ffffff !important;
+}
+
+#contact .btn-success {
+    background-color: #00f2ff !important;
+    color: #0d1017 !important;
+    border: none;
+    font-weight: bold;
+    padding: 15px 30px;
+}
+
+/* ==========================================================================
+   9. FOOTER UNIFICATION
+   ========================================================================== */
+
+footer {
+    padding: 0 !important;
+    margin: 0 !important;
+    background-color: #2c3e50 !important; /* Unified Footer Teal/Grey */
+    border: none !important;
+}
+
+.footer-above {
+    padding: 50px 0 30px 0;
+    background-color: #2c3e50 !important;
+}
+
+.footer-below {
+    padding: 20px 0;
+    background-color: #233140 !important; /* Slightly darker bottom strip */
+    color: rgba(154, 223, 255, 0.5);
+    font-size: 0.8em;
+}
 
 .btn-social {
     display: inline-block;
@@ -215,6 +265,7 @@ img.inline-spinner {
     line-height: 43px;
     color: #00f2ff;
     margin: 0 8px;
+    transition: all 0.3s ease;
 }
 
 .btn-social:hover {
@@ -225,7 +276,7 @@ img.inline-spinner {
 }
 
 /* ==========================================================================
-   7. SAFARI-ONLY GLOW ADJUSTMENT (WEBKIT FIX)
+   8. SAFARI-ONLY GLOW ADJUSTMENT (WEBKIT FIX)
    ========================================================================== */
 @media not all and (min-resolution:.001dpcm) { 
     @supports (-webkit-appearance:none) {
