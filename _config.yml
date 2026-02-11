@@ -1,33 +1,25 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-title: Memory Wheel
-email: wynkoop+memwheel@gmail.com
-description: > # this means to ignore newlines until "baseurl:"
-                EPIC CINEMATIC RETRO PLANETARIUM MUSIC
-baseurl: "/test02" # the subpath of your site, e.g. /blog
-url: "https://maxmace.github.io" # the base hostname & protocol for your site
+title: "Memory Wheel"
+email: "wynkoop+memwheel@gmail.com"
+description: "EPIC CINEMATIC RETRO PLANETARIUM MUSIC"
+baseurl: "/test02"
+url: "https://maxmace.github.io"
 
-# Social media profiles - feel free to add more here
-# twitter_username:
-github_username:  maxmace
-# facebook_username:  
-#instagram_username: beyonce
-#stackoverflow_url: https://
-#googleplus_username: BobMarley
-#skype_username: echo123
-#linkedin_url: https://
+# Social media profiles
+github_username: "maxmace"
 
 # Address information
-address_street:  
-address_city: West Melbourne
-address_state: FL
-address_zip:  
+address_street: ""
+address_city: "West Melbourne"
+address_state: "FL"
+address_zip: ""
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+
+# Exclude metadata from the final build
+exclude:
+  - .github
+  - Gemfile
+  - Gemfile.lock
