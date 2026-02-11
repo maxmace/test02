@@ -9,14 +9,14 @@
 title: Memory Wheel
 email: wynkoop+memwheel@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  EPIC CINEMATIC RETRO PLANETARIUM MUSIC
+                EPIC CINEMATIC RETRO PLANETARIUM MUSIC
 baseurl: "/test02" # the subpath of your site, e.g. /blog
 url: "https://maxmace.github.io" # the base hostname & protocol for your site
 
 # Social media profiles - feel free to add more here
-twitter_username:  
+# twitter_username:
 github_username:  maxmace
-facebook_username:  
+# facebook_username:  
 #instagram_username: beyonce
 #stackoverflow_url: https://
 #googleplus_username: BobMarley
