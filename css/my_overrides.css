@@ -322,43 +322,38 @@ img.inline-spinner {
     }
 }
 
-
 /* ==========================================================================
    7. ARTICLES (ACADEMIC/NEWS BLOG) SECTION OVERRIDES
    ========================================================================== */
 
-/* The Main Section Container */
 #articles {
-    /* "Nebula Obsidian" - A deep indigo that sits between Portfolio black and Contact teal */
-    background-color: #12141d !important; 
+    /* "Dusty Indigo" - More desaturated and 'atmospheric' than the previous version */
+    background-color: #1b1e2b !important; 
     background-image: none !important;
     padding: 100px 0;
-    border-top: 1px solid #1a3d4c;    /* Subtle blend into the Contact section hue */
-    border-bottom: 1px solid #1a3d4c;
+    border-top: 1px solid #2d324a; 
+    border-bottom: 1px solid #2d324a;
 }
 
-/* Flexbox Grid logic - matches Portfolio fix */
 .article-flex-grid {
     display: flex;
     flex-wrap: wrap;
 }
 
-/* Individual Card Container */
 .article-item {
     position: relative;
     margin-bottom: 30px;
-    /* Slightly lighter than #12141d to create a visible card edge */
-    background-color: #1c1f2b; 
-    border: 1px solid #30363d;
+    /* Card color slightly lighter than dusty indigo section */
+    background-color: #24283b; 
+    border: 1px solid #3d4461;
     overflow: hidden;
     transition: transform 0.3s ease, border-color 0.3s ease;
     display: flex;
     flex-direction: column;
 }
 
-/* Background image handling - Persistent Desaturation */
 .article-image-box {
-    height: 320px; /* Fixed height for academic grid consistency */
+    height: 320px;
     overflow: hidden;
     width: 100%;
 }
@@ -367,28 +362,23 @@ img.inline-spinner {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    /* High desaturation and darkening to prioritize text legibility */
-    filter: grayscale(90%) brightness(25%); 
+    filter: grayscale(90%) brightness(20%); 
     transition: all 0.5s ease;
 }
 
-/* Persistent Text Overlay Layer */
 .article-text-container {
     position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
     z-index: 2;
     padding: 30px;
     display: flex;
     flex-direction: column;
-    justify-content: center; /* Vertical centering of text */
+    justify-content: center;
 }
 
-/* Typography for Academic/News aesthetic */
 .article-meta-date {
-    color: #00f2ff !important; /* Signature Cyan Glow */
+    color: #00f2ff !important;
     font-family: "Century Gothic", sans-serif;
     font-size: 0.75rem;
     text-transform: uppercase;
@@ -405,14 +395,13 @@ img.inline-spinner {
 }
 
 .article-subtitle-text {
-    color: #9adfff !important; /* Light blue accent */
+    color: #9adfff !important;
     font-size: 1.0rem;
     font-style: italic;
     font-weight: 300;
     margin-bottom: 15px;
 }
 
-/* Cyan accent divider matching site-wide glow theme */
 .article-divider-cyan {
     width: 45px;
     height: 2px;
@@ -428,7 +417,6 @@ img.inline-spinner {
     margin-top: 5px;
 }
 
-/* Hover interaction - Subtle and Professional */
 .article-item:hover {
     transform: translateY(-5px);
     border-color: #00f2ff;
@@ -436,15 +424,14 @@ img.inline-spinner {
 }
 
 .article-item:hover .article-bg-img {
-    /* Slightly wake up the image color/light on mouseover */
-    filter: grayscale(60%) brightness(35%); 
+    filter: grayscale(60%) brightness(30%); 
     transform: scale(1.03);
 }
 
-/* Link area expansion */
 .article-link {
     text-decoration: none !important;
     display: block;
     width: 100%;
     height: 100%;
 }
+
