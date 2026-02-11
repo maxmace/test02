@@ -1,26 +1,25 @@
 /* ==========================================================================
-   0. PORTFOLIO GRID LAYOUT FIX (FLEXBOX)
+   0. PORTFOLIO & ARTICLE GRID LAYOUT (FLEXBOX)
    ========================================================================== */
 
-/*
-   Fixes desktop-only "blank gaps" caused by Bootstrap 3 float wrapping
-   when child elements use absolute positioning.
-   This affects ONLY the portfolio grid.
-*/
-
-#portfolio .row {
+/* Fixes "blank gaps" and ensures uniform card heights */
+#portfolio .row, 
+.article-flex-grid {
     display: flex;
     flex-wrap: wrap;
 }
 
-#portfolio .portfolio-item {
-    float: none !important;   /* Disable Bootstrap float */
+#portfolio .portfolio-item,
+.article-item {
+    float: none !important;
     display: flex;
+    flex-direction: column;
 }
 
-/* Ensure links/images stretch correctly inside flex items */
-#portfolio .portfolio-link {
+#portfolio .portfolio-link,
+.article-link {
     width: 100%;
+    flex-grow: 1;
 }
 
 #portfolio img.img-responsive {
@@ -28,93 +27,23 @@
     height: auto;
 }
 
-
 /* ==========================================================================
-   1. GLOBAL THEME & MODAL OVERRIDES
+   1. GLOBAL THEME & SECTION OVERRIDES
    ========================================================================== */
 
-/* Force dark theme on main sections and modals */
 header, 
 #portfolio,
-#articles, /* Integrated Articles Section */
-.portfolio-modal .modal-content {
+#articles {
     background-color: #0d1017 !important;
     background-image: none !important;
 }
 
-/* Default modal text color */
-.portfolio-modal .modal-content {
-    color: #9adfff;
-}
-
-
-/* Modal text alignment & Layout */
-.portfolio-modal .modal-body p,
-.portfolio-modal .modal-body h1,
-.portfolio-modal .modal-body h2,
-.portfolio-modal .modal-body h3,
-.portfolio-modal .modal-body h4,
-.portfolio-modal .modal-body h5,
-.portfolio-modal .modal-body ul,
-.portfolio-modal .modal-body ol,
-.portfolio-modal .modal-body li {
-    text-align: left !important;
-}
-
-/* List styling in modals */
-.portfolio-modal .modal-body ul,
-.portfolio-modal .modal-body ol {
-    display: block !important;
-    margin-left: 20px !important;
-    padding-left: 20px !important;
-}
-
-.portfolio-modal .modal-body li {
-    margin-bottom: 5px;
-}
-
-.portfolio-modal .modal-body ul li::marker {
-    color: #00f2ff !important;
-    font-size: 1.2em;
-}
-
-/* Modal Close Button (The 'X') */
-.portfolio-modal .close-modal .lr,
-.portfolio-modal .close-modal .lr .rl {
-    background-color: #ffffff !important;
-}
+/* Default Link Styling */
+a { color: #00f2ff; transition: all 0.3s ease; }
+a:hover { color: #ffffff; text-decoration: none; }
 
 /* ==========================================================================
-   PORTFOLIO MODAL TEXT COLOR OVERRIDE
-   ========================================================================== */
-
-/* Default text color inside portfolio modals */
-.portfolio-modal .modal-content {
-    color: #9adfff; /* light blue */
-}
-
-/* Headings inside portfolio modals */
-.portfolio-modal .modal-content h1,
-.portfolio-modal .modal-content h2,
-.portfolio-modal .modal-content h3,
-.portfolio-modal .modal-content h4,
-.portfolio-modal .modal-content h5,
-.portfolio-modal .modal-content h6 {
-    color: #c6f1ff; /* slightly brighter for hierarchy */
-}
-
-/* Links inside portfolio modals */
-.portfolio-modal .modal-content a {
-    color: #00f2ff;
-}
-
-.portfolio-modal .modal-content a:hover {
-    color: #ffffff;
-}
-
-
-/* ==========================================================================
-   2. HEADER, ANIMATION & SECTION ELEMENTS
+   2. HOLLOW TEXT & COSMIC ELEMENTS
    ========================================================================== */
 
 @keyframes spin {
@@ -132,7 +61,6 @@ img.inline-spinner {
 
 .hollow-text {
     display: inline-block !important;
-    font-size: 60px !important;
     font-weight: 900 !important;
     color: transparent !important;
     -webkit-text-stroke: 2px #ffffff !important;
@@ -151,29 +79,8 @@ img.inline-spinner {
     width: 200px !important;
 }
 
-
 /* ==========================================================================
-   3. ABOUT SECTION OVERRIDES
-   ========================================================================== */
-
-.about-reference-box {
-    color: #fff995 !important;
-    border: 1px solid #ccc !important;
-    padding: 8px 12px;
-    font-size: 1.0rem;
-    display: inline-block;
-    margin-top: 15px;
-    line-height: 1.4;
-}
-
-.about-reference-box strong {
-    color: #fff995;
-    letter-spacing: 1px;
-}
-
-
-/* ==========================================================================
-   4. VIDEO PLAYER & THUMBNAILS
+   3. VIDEO PLAYER & YOUTUBE INCLUDES
    ========================================================================== */
 
 .video-container {
@@ -187,13 +94,6 @@ img.inline-spinner {
     padding-top: 2px;
 }
 
-.video-container iframe {
-    position: absolute;
-    top: 0; left: 0;
-    width: 100%;
-    height: 100%;
-}
-
 .video-thumb-wrapper {
     position: absolute;
     top: 0; left: 0; right: 0; bottom: 0;
@@ -202,27 +102,20 @@ img.inline-spinner {
     border-radius: 8px;
     border: 2px solid #00f2ff !important;
     box-shadow: 0 0 15px rgba(0, 242, 255, 0.4);
-    box-sizing: border-box;
     display: flex;
 }
 
-.video-thumb-wrapper img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
+.video-thumb-wrapper img { width: 100%; height: 100%; object-fit: cover; }
 
 .play-overlay {
     position: absolute;
     top: 50%; left: 50%;
     transform: translate(-50%, -50%);
-    width: 60px;
-    height: 60px;
+    width: 60px; height: 60px;
     background: rgba(0, 0, 0, 0.6);
     border: 3px solid #ffffff;
     border-radius: 50%;
     z-index: 10;
-    transition: all 0.3s ease;
     color: #00f2ff;
     text-shadow: 0 0 10px #00f2ff;
     transition: all 0.3s ease;
@@ -241,202 +134,125 @@ img.inline-spinner {
 .video-thumb-wrapper:hover .play-overlay {
     background: rgba(0, 242, 255, 0.8);
     border-color: #00f2ff;
+    transform: translate(-50%, -50%) scale(1.1);
     box-shadow: 0 0 20px #00f2ff;
-    transform: translate(-50%, -50%) scale(1.1);
-    transform: translate(-50%, -50%) scale(1.1);
-    text-shadow: 0 0 20px #00f2ff;
 }
 
-.video-caption {
-    font-family: "Century Gothic", sans-serif !important;
-    font-size: 0.9em;
-    margin-top: 10px;
-}
-
-.video-caption strong {
-    color: #00f2ff;
-}
-
+.video-caption { font-family: "Century Gothic", sans-serif; font-size: 0.9em; margin-top: 10px; color: #d1d5db; }
+.video-caption strong { color: #00f2ff; }
 
 /* ==========================================================================
-   5. CONTACT SECTION
-   ========================================================================== */
-
-#contact {
-    background-color: #1a3d4c !important;
-    color: #ffffff !important;
-}
-
-#contact h2,
-#contact hr.star-primary {
-    color: #ffffff !important;
-}
-
-#contact hr.star-primary:after {
-    background-color: #1a3d4c !important;
-    color: #ffffff !important;
-}
-
-#contact .form-control {
-    background-color: rgba(255, 255, 255, 0.1) !important;
-    border: 1px solid #00f2ff !important;
-    color: #ffffff !important;
-}
-
-#contact .form-control:focus {
-    background-color: rgba(255, 255, 255, 0.2) !important;
-    box-shadow: 0 0 10px #00f2ff !important;
-}
-
-#contact ::placeholder {
-    color: rgba(255, 255, 255, 0.6) !important;
-}
-
-#contact .btn-success {
-    background-color: #00f2ff !important;
-    border-color: #00f2ff !important;
-    color: #0d1017 !important;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-#contact .btn-success:hover {
-    background-color: #ffffff !important;
-    box-shadow: 0 0 15px #00f2ff;
-}
-
-
-/* ==========================================================================
-   6. NAVBAR & RESPONSIVE DESIGN
-   ========================================================================== */
-
-.navbar-custom .navbar-brand.hollow-navbar-title {
-    color: transparent !important;
-    -webkit-text-stroke: 1px #ffffff !important;
-    text-transform: uppercase;
-    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
-    font-size: 20px !important;
-    height: auto !important;
-    padding: 15px 15px;
-}
-
-@media (min-width: 768px) {
-    .navbar-custom .navbar-brand.hollow-navbar-title {
-        font-size: 35px !important;
-        -webkit-text-stroke: 1.5px #ffffff !important;
-    }
-}
-
-/* ==========================================================================
-   7. ARTICLES (ACADEMIC/NEWS BLOG) SECTION OVERRIDES
+   4. ARTICLES (DUSTY INDIGO) SECTION
    ========================================================================== */
 
 #articles {
-    /* "Dusty Indigo" - More desaturated and 'atmospheric' than the previous version */
     background-color: #1b1e2b !important; 
-    background-image: none !important;
     padding: 100px 0;
     border-top: 1px solid #2d324a; 
     border-bottom: 1px solid #2d324a;
 }
 
-.article-flex-grid {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .article-item {
-    position: relative;
-    margin-bottom: 30px;
-    /* Card color slightly lighter than dusty indigo section */
     background-color: #24283b; 
     border: 1px solid #3d4461;
+    margin-bottom: 30px;
     overflow: hidden;
-    transition: transform 0.3s ease, border-color 0.3s ease;
-    display: flex;
-    flex-direction: column;
+    transition: all 0.3s ease;
 }
 
-.article-image-box {
-    height: 320px;
-    overflow: hidden;
-    width: 100%;
-}
-
+.article-image-box { height: 320px; overflow: hidden; }
 .article-bg-img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    filter: grayscale(90%) brightness(20%); 
+    width: 100%; height: 100%; object-fit: cover;
+    filter: grayscale(90%) brightness(20%);
     transition: all 0.5s ease;
 }
 
 .article-text-container {
     position: absolute;
-    top: 0; left: 0;
-    width: 100%; height: 100%;
-    z-index: 2;
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    top: 0; left: 0; width: 100%; height: 100%;
+    padding: 30px; display: flex; flex-direction: column; justify-content: center;
 }
 
 .article-meta-date {
     color: #00f2ff !important;
     font-family: "Century Gothic", sans-serif;
+    letter-spacing: 2px;
     font-size: 0.75rem;
     text-transform: uppercase;
-    letter-spacing: 2.5px;
-    margin-bottom: 12px;
 }
 
-.article-title-text {
-    color: #ffffff !important;
-    font-weight: 800;
-    font-size: 1.4rem;
-    margin: 0 0 8px 0;
-    line-height: 1.2;
+.article-title-text { color: #ffffff !important; font-weight: 800; font-size: 1.4rem; }
+.article-divider-cyan { width: 45px; height: 2px; background-color: #00f2ff; margin: 15px 0; box-shadow: 0 0 10px #00f2ff; }
+
+.article-item:hover { transform: translateY(-5px); border-color: #00f2ff; }
+.article-item:hover .article-bg-img { filter: grayscale(60%) brightness(30%); transform: scale(1.03); }
+
+/* ==========================================================================
+   5. UNIFIED PAGE CONTENT (ARTICLES & PORTFOLIO)
+   ========================================================================== */
+
+.article-body-content, 
+.portfolio-content-body {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #e5e7eb;
 }
 
-.article-subtitle-text {
-    color: #9adfff !important;
-    font-size: 1.0rem;
+.article-body-content h2, .article-body-content h3,
+.portfolio-content-body h2, .portfolio-content-body h3 {
+    color: #c6f1ff;
+    margin-top: 1.5em;
+    border-bottom: 1px solid rgba(0, 242, 255, 0.1);
+    padding-bottom: 5px;
+}
+
+blockquote {
+    border-left: 4px solid #00f2ff;
+    background: rgba(0, 242, 255, 0.05);
+    padding: 20px;
     font-style: italic;
-    font-weight: 300;
-    margin-bottom: 15px;
+    color: #9adfff;
+    margin: 30px 0;
 }
 
-.article-divider-cyan {
-    width: 45px;
-    height: 2px;
-    background-color: #00f2ff;
-    margin: 15px 0;
-    box-shadow: 0 0 10px #00f2ff;
+/* ==========================================================================
+   6. CONTACT SECTION
+   ========================================================================== */
+
+#contact { background-color: #1a3d4c !important; color: #ffffff !important; }
+#contact .form-control { background-color: rgba(255, 255, 255, 0.1) !important; border: 1px solid #00f2ff !important; color: #ffffff !important; }
+#contact .btn-success { background-color: #00f2ff !important; color: #0d1017 !important; font-weight: bold; }
+
+/* ==========================================================================
+   7. NAVBAR & RESPONSIVE
+   ========================================================================== */
+
+.navbar-custom .navbar-brand.hollow-navbar-title {
+    color: transparent !important;
+    -webkit-text-stroke: 1px #ffffff !important;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
 }
 
-.article-abstract-text {
-    color: #d1d5db;
-    font-size: 0.85rem;
-    line-height: 1.6;
-    margin-top: 5px;
+@media (min-width: 768px) {
+    .navbar-custom .navbar-brand.hollow-navbar-title { font-size: 35px !important; -webkit-text-stroke: 1.5px #ffffff !important; }
 }
 
-.article-item:hover {
-    transform: translateY(-5px);
-    border-color: #00f2ff;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6);
+/* ==========================================================================
+   8. SAFARI-ONLY GLOW ADJUSTMENT (WEBKIT FIX)
+   ========================================================================== */
+@media not all and (min-resolution:.001dpcm) { 
+    @supports (-webkit-appearance:none) {
+        .hollow-text {
+            text-shadow: 0 0 5px rgba(255, 255, 255, 0.8),
+                         0 0 10px rgba(0, 212, 255, 0.5) !important;
+            -webkit-text-stroke: 1px #ffffff !important;
+        }
+        .star-light-custom, .article-divider-cyan {
+            box-shadow: 0 0 5px #00f2ff, 0 0 10px #00f2ff !important;
+        }
+        .navbar-custom .navbar-brand.hollow-navbar-title {
+            text-shadow: 0 0 3px rgba(255, 255, 255, 0.6) !important;
+            -webkit-text-stroke: 0.5px #ffffff !important;
+        }
+    }
 }
-
-.article-item:hover .article-bg-img {
-    filter: grayscale(60%) brightness(30%); 
-    transform: scale(1.03);
-}
-
-.article-link {
-    text-decoration: none !important;
-    display: block;
-    width: 100%;
-    height: 100%;
-}
-
