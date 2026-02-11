@@ -223,6 +223,9 @@ img.inline-spinner {
     border-radius: 50%;
     z-index: 10;
     transition: all 0.3s ease;
+    color: #00f2ff;
+    text-shadow: 0 0 10px #00f2ff;
+    transition: all 0.3s ease;
 }
 
 .play-overlay::after {
@@ -240,6 +243,8 @@ img.inline-spinner {
     border-color: #00f2ff;
     box-shadow: 0 0 20px #00f2ff;
     transform: translate(-50%, -50%) scale(1.1);
+    transform: translate(-50%, -50%) scale(1.1);
+    text-shadow: 0 0 20px #00f2ff;
 }
 
 .video-caption {
