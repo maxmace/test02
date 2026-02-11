@@ -1,22 +1,21 @@
 ---
 layout: portfolio
-title:  "Going for a Ride on Halloween Night"
-date:   2025-10-29 11:08:10 -0500
+title: "Going for a Ride on Halloween Night"
+date: 2025-10-29 11:08:10 -0500
 img: img/portfolio/HalloweenNight-post.png
 modalID: modalHalloweenNight
 category: Halloween
 ---
+
 ### Going for a Ride on Halloween Night!
 
-{% include youtube.html 
-   id="zm2PimeNz2k" 
-   title="Going for a Ride on Halloween Night" %}
+{% include youtube.html id="zm2PimeNz2k" thumb="img/portfolio/HalloweenNight-post.png" title="Going for a Ride on Halloween Night" %}
 
 #### About this track
 Picture yourself on a wild roller coaster, careening through haunted woods on the spookiest night of the year! 
 
 Yes, there are lyrics for this tune!
---But you will not hear them in this video.
+* But you will not hear them in this video.
 
 #### INSPIRATION:
 This video was the result of a disarming impromptu recording of the Silver Shamrock jingle which forms the basis of the track (see on-screen credits). 
@@ -28,7 +27,7 @@ And I'd be remiss if I didn't direct you to the masters that defined "the sympho
 The haunting wind intro and outro is part of the "Vortex Graveyard" soundscape available elsewhere on my channel. Like much of the music on my videos, it was entirely synthesized on 1980s hardware.
 
 #### THE COMPOSITION:
-Even after a hundred years of mainstream-ness, syncopation still has an effect on the listener, even if they can't put their finger on it. Literally offbeat rhythms and the juxtaposition of orchestral and synthesizer tambre informs this spooky cue.
+Even after a hundred years of mainstream-ness, syncopation still has an effect on the listener, even if they can't put their finger on it. Literally offbeat rhythms and the juxtaposition of orchestral and synthesizer timbre informs this spooky cue.
 
 The concept of this track is a frenetic "wild ride" through an autumnal phantasmagoria, similar to Ichabod Crane's final ride through the eldritch woods in Sleepy Hollow.
 
