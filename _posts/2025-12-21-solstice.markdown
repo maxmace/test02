@@ -1,20 +1,19 @@
 ---
 layout: portfolio
-title:  "Solstice"
-date:   2025-12-21 11:08:10 -0500
+title: "Solstice"
+date: 2025-12-21 11:08:10 -0500
 img: img/portfolio/solstice-post.png
 modalID: modalSolstice
 category: Planetarium
 ---
+
 ### Solstice: Meditations on an Appalachian Carol
 #### Epic Cinematic Soundscape for synthesizer & Mellotron
 
-{% include youtube.html 
-   id="u6sYuqQw5IY?si" 
-   title="Solstice: Meditations on an Appalachian Carol -Epic Cinematic Soundscape for synthesizer & Mellotron" %}
+{% include youtube.html id="u6sYuqQw5IY" thumb="img/portfolio/solstice-post.png" title="Solstice: Meditations on an Appalachian Carol" %}
 
 ### A Listener's Guide:
-Holiday Planetarium music for stargazing under Yuletide skies. Dynamic synthesizer setting for Appalachian carol "I Wonder as I Wander".  
+Holiday Planetarium music for stargazing under Yuletide skies. Dynamic synthesizer setting for Appalachian carol "I Wonder as I Wander". 
 
 Completed and published on the winter solstice, the longest night of the year for skywatching...or anything, really.
 
