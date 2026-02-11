@@ -1,4 +1,4 @@
-<section id="articles" style="background-color: #0d1017; padding: 100px 0;">
+<section id="articles">
     <div class="container">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -25,7 +25,7 @@
                             </div>
                         </div>
                         <div class="article-image-box">
-                            <img src="{{ site.baseurl }}/{{ post.img }}" 
+                            <img src="{{ post.img | relative_url }}" 
                                  class="img-responsive article-bg-img" 
                                  alt="{{ post.title }}">
                         </div>
