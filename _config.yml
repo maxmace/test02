@@ -4,6 +4,7 @@ email: "wynkoop+memwheel@gmail.com"
 description: "EPIC CINEMATIC RETRO PLANETARIUM MUSIC"
 baseurl: "/test02"
 url: "https://maxmace.github.io"
+permalink: /:categories/:title/
 
 # Social media profiles
 github_username: "maxmace"
