@@ -23,3 +23,8 @@ exclude:
   - .github
   - Gemfile
   - Gemfile.lock
+plugins:
+  - jekyll-remote-theme
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-sitemap
