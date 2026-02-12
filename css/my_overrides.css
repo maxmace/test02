@@ -29,6 +29,20 @@
     height: auto;
 }
 
+/* Force Portfolio Heading to stay centered on all screen sizes */
+#portfolio .text-center, 
+#portfolio h2.section-heading,
+#portfolio h2 {
+    text-align: center !important;
+    width: 100% !important;
+    display: block !important;
+}
+
+/* Ensure the star divider stays centered as well */
+#portfolio hr.star-primary {
+    margin: 25px auto !important;
+}
+
 /* ==========================================================================
    1. GLOBAL THEME & SECTION OVERRIDES
    ========================================================================== */
