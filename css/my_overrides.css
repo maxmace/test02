@@ -316,7 +316,7 @@ img.inline-spinner {
 }
 
 /* ==========================================================================
-   9. FOOTER UNIFICATION
+   8. FOOTER UNIFICATION
    ========================================================================== */
 
 footer {
@@ -358,7 +358,48 @@ footer {
 }
 
 /* ==========================================================================
-   8. SAFARI-ONLY GLOW ADJUSTMENT (WEBKIT FIX)
+   9. COSMIC AUDIO PLAYER SKIN
+   ========================================================================== */
+.audio-player-container {
+    background: rgba(13, 16, 23, 0.6) !important;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(0, 242, 255, 0.3) !important;
+    border-radius: 4px;
+    padding: 20px;
+    margin: 30px 0;
+    box-shadow: 0 0 15px rgba(0, 242, 255, 0.1);
+    transition: all 0.3s ease;
+}
+
+.audio-player-container:hover {
+    border-color: rgba(0, 242, 255, 0.8) !important;
+    box-shadow: 0 0 20px rgba(0, 242, 255, 0.2);
+}
+
+.audio-label {
+    color: #00f2ff;
+    font-family: "Century Gothic", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.8em;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+
+.audio-label i {
+    margin-right: 10px;
+    font-size: 1.2em;
+}
+
+/* Customizing the native player colors (Chrome/Safari/Edge) */
+audio::-webkit-media-controls-enclosure {
+    background-color: rgba(154, 223, 255, 0.1) !important;
+}
+
+/* ==========================================================================
+   FINAL SECTION - SAFARI-ONLY GLOW ADJUSTMENT (WEBKIT FIX)
    ========================================================================== */
 @media not all and (min-resolution:.001dpcm) { 
     @supports (-webkit-appearance:none) {
