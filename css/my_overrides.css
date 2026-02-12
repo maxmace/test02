@@ -58,8 +58,8 @@ header,
     background-image: none !important;
 }
 
-/* Portfolio Heading Fix (Solid White for hierarchy) */
-#portfolio h2 {
+/* FIX: Portfolio Heading is only solid if it DOES NOT have the hollow class */
+#portfolio h2:not(.hollow-text) {
     color: #ffffff !important;
     text-transform: uppercase;
     font-weight: 700;
