@@ -18,6 +18,14 @@ address_zip: ""
 # show or hide video in ABOUT section
 show_featured_video: true
 
+social:
+  - title: youtube
+    url: https://www.youtube.com/@MemoryWheelMusic
+  - title: envelope
+    url: "mailto:wynkoop+memwheel@gmail.com?subject=Attention:%20Memory%20Wheel"
+# - title: instagram
+#   url: https://instagram.com/hidden
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
