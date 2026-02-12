@@ -15,6 +15,9 @@ address_city: "West Melbourne"
 address_state: "FL"
 address_zip: ""
 
+# show or hide video in ABOUT section
+show_featured_video: true
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
