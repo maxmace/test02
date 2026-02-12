@@ -19,6 +19,10 @@ Unlike a "Room" or "Hall" reverb which tries to emulate a physical space on Eart
 
 {% include player.html file="mp3/test.mp3" title="Test of embedded audio player" %}
 
+Another take on the same motif:
+
+{% include player.html file="mp3/test-02.mp3" title="Will this break?" %}
+
 * **Gravity & Resonance:** By manipulating the feedback loops, I can create a "shimmer" that sounds like light reflecting off an icy nebula.
 * **Modulation:** Adding slight pitch-shifting to the reverb trails helps prevent the sound from becoming static, giving it an "organic" drift.
 
