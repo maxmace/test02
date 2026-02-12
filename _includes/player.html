@@ -1,0 +1,10 @@
+<div class="audio-player-container">
+    <div class="audio-label">
+        <i class="fa fa-volume-up"></i> 
+        <span>Monitoring: {{ include.title | default: "Audio Preview" }}</span>
+    </div>
+    <audio controls controlsList="nodownload" style="width: 100%;">
+        <source src="{{ include.file | relative_url }}" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</div>
