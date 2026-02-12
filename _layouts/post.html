@@ -34,9 +34,17 @@
 
                     <div class="text-center" style="margin-top: 80px;">
                         <hr class="star-light-custom">
-                        <a href="{{ site.baseurl }}/#articles" class="btn btn-xl" style="background-color: #00f2ff; color: #0d1017; border: none;">
-                            <i class="fa fa-arrow-left"></i> Back to Articles
-                        </a>
+                        
+                        {% if page.category == "studio" %}
+                            <a href="{{ site.baseurl }}/#studio" class="btn btn-xl" style="background-color: #00f2ff; color: #0d1017; border: none;">
+                                <i class="fa fa-arrow-left"></i> Back to Studio
+                            </a>
+                        {% else %}
+                            <a href="{{ site.baseurl }}/#articles" class="btn btn-xl" style="background-color: #00f2ff; color: #0d1017; border: none;">
+                                <i class="fa fa-arrow-left"></i> Back to Articles
+                            </a>
+                        {% endif %}
+                        
                     </div>
                 </div>
             </div>
