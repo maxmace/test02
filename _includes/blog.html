@@ -4,13 +4,13 @@
             <div class="col-lg-12 text-center">
                 <h2 class="hollow-text" style="font-size: 50px !important;">Articles</h2>
                 <hr class="star-light-custom">
-                <h3 class="section-subheading" style="color: #9adfff; margin-bottom: 50px;">Technical deep-dives, skywatching, planetarium & studio notes.</h3>
+                <h3 class="section-subheading" style="color: #9adfff; margin-bottom: 50px;">Technical deep-dives, skywatching, planetarium notes.</h3>
             </div>
         </div>
 
         <div class="row article-flex-grid">
             {% for post in site.posts %}
-                {% if post.layout == "post" %}
+                {% if post.layout == "post" and post.category != "studio" %}
                 <div class="col-sm-4 article-item">
                     <a href="{{ post.url | relative_url }}" class="article-link">
                         <div class="article-text-container">
