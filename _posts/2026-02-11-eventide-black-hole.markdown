@@ -17,6 +17,8 @@ In space music, silence is just as important as sound. However, to make silence 
 
 Unlike a "Room" or "Hall" reverb which tries to emulate a physical space on Earth, the Black Hole is designed to sound unnatural and vast. 
 
+{% include player.html file="mp3/test.mp3" title="Test of embedded audio player" %}
+
 * **Gravity & Resonance:** By manipulating the feedback loops, I can create a "shimmer" that sounds like light reflecting off an icy nebula.
 * **Modulation:** Adding slight pitch-shifting to the reverb trails helps prevent the sound from becoming static, giving it an "organic" drift.
 
