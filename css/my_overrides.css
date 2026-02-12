@@ -2,7 +2,7 @@
    0. GRID LAYOUT & FLEXBOX (UNIFIED)
    ========================================================================== */
 
-/* Fixes spacing/alignment for Portfolio and Article thumbnails */
+/* Fixes spacing/alignment for Portfolio, Article, and Studio thumbnails */
 #portfolio .row, 
 .article-flex-grid {
     display: flex;
@@ -10,14 +10,16 @@
 }
 
 #portfolio .portfolio-item,
-.article-item {
+.article-item,
+.studio-item {
     float: none !important;
     display: flex;
     flex-direction: column;
 }
 
 #portfolio .portfolio-link,
-.article-link {
+.article-link,
+.studio-link {
     width: 100%;
     flex-grow: 1;
 }
@@ -38,7 +40,7 @@ body {
 header, 
 #portfolio,
 #articles {
-    background-color: #0d1017 !important;
+    background-color: #0d1017 !important; 
     background-image: none !important;
 }
 
@@ -225,7 +227,7 @@ img.inline-spinner {
     letter-spacing: 2px;
     font-weight: 300;
     color: #9adfff !important;
-    border: 1px solid transparent; /* Prevents jumping when the border appears */
+    border: 1px solid transparent; 
     border-radius: 4px;
     margin: 0 5px;
     transition: all 0.3s ease;
@@ -233,9 +235,9 @@ img.inline-spinner {
 
 /* The 'Moving Tab' / Active Section Highlight (Refined to 15% Opacity + Glow) */
 .navbar-custom .nav li.active a {
-    background-color: rgba(0, 242, 255, 0.15) !important; /* 15% transparency */
+    background-color: rgba(0, 242, 255, 0.15) !important; 
     color: #ffffff !important;
-    border: 1px solid rgba(0, 242, 255, 0.6) !important; /* The glow outline */
+    border: 1px solid rgba(0, 242, 255, 0.6) !important; 
     box-shadow: 0 0 10px rgba(0, 242, 255, 0.4), 
                 inset 0 0 5px rgba(0, 242, 255, 0.2);
     text-shadow: 0 0 8px #ffffff;
@@ -275,6 +277,42 @@ img.inline-spinner {
     border: none;
     font-weight: bold;
     padding: 15px 30px;
+}
+
+/* ==========================================================================
+   7. STUDIO SECTION (HYBRID GEAR GALLERY)
+   ========================================================================== */
+
+#studio {
+    background-color: #1a3d4c !important; /* Matches original Contact section */
+    color: #ffffff !important;
+    padding: 100px 0;
+}
+
+.studio-item {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(0, 242, 255, 0.3);
+    overflow: hidden;
+    transition: all 0.3s ease;
+    margin-bottom: 30px;
+}
+
+.studio-img-clean {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    filter: none !important; /* No grayscale/dimming for equipment gear */
+    opacity: 1 !important;
+    transition: transform 0.5s ease;
+}
+
+.studio-item:hover {
+    border-color: #00f2ff;
+    box-shadow: 0 0 20px rgba(0, 242, 255, 0.4);
+}
+
+.studio-item:hover .studio-img-clean {
+    transform: scale(1.05);
 }
 
 /* ==========================================================================
