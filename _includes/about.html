@@ -1,33 +1,31 @@
-<!-- About Section -->
-    <section class="success" id="about" style="background-color: #195673;">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2>About</h2>
-                    <hr class="star-light">
-                </div>
+<section class="success" id="about" style="background-color: #195673;">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 style="font-size: 50px !important; color: #ffffff !important; font-weight: 700;">About</h2>
+                <hr class="star-light">
             </div>
-            <div class="row">
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p>
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-lg-offset-2">
+                <p>
                     Man-made music. <br>Created for cosmic adventure.
                     <br><br>
                     <span style="color: LemonChiffon;">Memory Wheel</span> is a retro space music project that encourages thoughtful, contemplative fun. Focusing on rich electro/symphonic sound featuring dynamic, evolving orchestration, world class recording techniques and the best in audio fidelity.
                     <br><br>
-                    These compositions are deliberately designed to work as both contemplative background (e.g. "ambient for study" &#128516;
- ) or for active listening, like a 1970s album-oriented experience.
-                    </p>
-                    
+                    These compositions are deliberately designed to work as both contemplative background (e.g. "ambient for study" &#128516;) or for active listening, like a 1970s album-oriented experience.
+                </p>
+                
                 <div class="about-reference-box">
                     <strong>SEE ALSO:</strong> 
                     Vangelis, Isao Tomita, Jean-Michel Jarre, Wendy Carlos, Brian Eno, 
                     Jonn Serrie, Tim Clark, Steven Halpern, Tangerine Dream, 
                     Klaus Schulze, Constance Demby, Michael Stearns 
                 </div>
-                    <br><br>
-                </div>
-                <div class="col-lg-4">
-                    <p>
+                <br><br>
+            </div>
+            <div class="col-lg-4">
+                <p>
                     You don't have nostalgia for analog planetariums and 1970’s space music…. 
                     <br><br>
                     <strong>Yet.</strong>
@@ -39,8 +37,28 @@
                     Evoking the spirit of anemoia, imagine an era where--for the first time--the combined voice of the symphony orchestra and the new sonic palette of analog synthesizers combine to evoke the awe and wonder of cosmic grandeur.
                     <br><br>
                     <span style="color: LemonChiffon;">Memory Wheel</span> is your laser-fueled time machine to an age where projected light combined with sounds in space in a brand-new way.
-                    </p>
+                </p>
+            </div>
+        </div>
+
+        {% if site.show_featured_video %}
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1 text-center">
+                <h3 class="section-subheading" style="color: #9adfff; margin-top: 50px; text-transform: uppercase; letter-spacing: 2px;">
+                    Featured Transmission
+                </h3>
+                <div class="video-responsive">
+                    <iframe 
+                        src="https://www.youtube.com/embed/YOUR_VIDEO_ID" 
+                        title="Memory Wheel Transmission" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        allowfullscreen>
+                    </iframe>
                 </div>
             </div>
         </div>
-    </section>
+        {% endif %}
+
+    </div>
+</section>
