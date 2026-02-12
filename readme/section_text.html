@@ -1,0 +1,36 @@
+Since there are only 4 sections, I'm satisfied with either adding it or removing the inline 'class="hollow-text" style="font-size: 50px !important;"' in my specific H2 title locations.
+Gemini said
+That is a very grounded and wise approach. Sticking to HTML-level changes is the safest way to manage a small site because it prevents "CSS sprawl"—where you change a line in one file and accidentally break something three pages away.
+
+Since you only have four main sections, you can treat them like manual toggles. Here is the reminder for your README on how to handle those specific <h2> tags.
+
+README: Manual Header Style Toggle
+To change the look of a section title, edit the <h2> tag in the corresponding _includes/ file.
+
+Option A: The "Cosmic Glow" (Current Blog/Studio Style)
+Copy and paste this exact line into the file. The hollow-text class handles the outline/glow, and the inline style ensures the size is consistent.
+
+HTML
+<h2 class="hollow-text" style="font-size: 50px !important;">Section Title</h2>
+Option B: The "Solid Minimalist" (Current About/Portfolio Style)
+Remove the class and the stroke styles. Use this line for a clean, solid white look that matches the "About" section's readability.
+
+HTML
+<h2 style="font-size: 50px !important; color: #ffffff !important; font-weight: 700;">Section Title</h2>
+Which files to edit:
+_includes/about.html
+
+_includes/portfolio.html
+
+_includes/blog.html
+
+_includes/studio.html
+
+Important Reminder: The Divider Match
+When you swap the title style, you should also swap the <hr> tag immediately below it so the "glow" or "solid" look is consistent for the whole heading block:
+
+If using Glow Title: Use <hr class="star-light-custom">
+
+If using Solid Title: Use <hr class="star-primary"> (or your theme's default white divider).
+
+This manual method keeps your my_overrides.css clean and ensures your Navbar and Post Titles stay exactly as they are.
