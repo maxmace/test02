@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Eventide Black Hole"
+title: " replicate the Eventide Black Hole with Valhalla Shimmer"
 subtitle: "Designing Infinite Space"
 date: 2026-02-11 10:00:00 -0000
 category: studio
@@ -10,8 +10,13 @@ abstract: "A look into the algorithmic reverb that provides the sense of immense
 ---
 
 ### Creating the Void
+To Simon and Garfunkel, the sound of silence was a metaphor for an existential paradox that resulted in a famous commercial moneymaker decrying commercial fame and money-making..
 
-In space music, silence is just as important as sound. However, to make silence feel "large," you need a specific type of spatial processing. The **Eventide Black Hole** algorithm is a staple in the Memory Wheel studio for this exact reason.
+In space music, silence is just as important as sound. The space between sounds is a psychoacoustic cue. If the silence is literally silent, listeners perceive a lack of space. Ironically, to convey vast nothingness, we need to fill that space with something. 
+
+Eventide’s Blackhole is an iconic, "otherworldly" reverb that originated as a algorithm in the DSP4000 Ultra-Harmonizer rack unit in 1994. Today's familiar pedal and stompbox version is a modern version of that original rack processor preset. 
+
+ To make silence feel "large," you need a specific type of spatial processing. 
 
 #### The Geometry of Reverb
 
