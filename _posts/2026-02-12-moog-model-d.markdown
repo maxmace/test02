@@ -5,7 +5,7 @@ subtitle: "The Foundation of Cosmic Bass"
 date: 2026-02-12 12:00:00 -0000
 category: studio
 studio_group: synthesizers
-img: /img/portfolio/cabin.png  # Using a default theme image to test
+img: /img/studio/moog-sq80.png  # Using a default theme image to test
 abstract: "Exploring the 1970s hardware that defined the planetarium sound, from soaring leads to earth-shaking sub-bass."
 ---
 
