@@ -5,7 +5,7 @@ subtitle: "Designing Infinite Space"
 date: 2026-02-11 10:00:00 -0000
 category: studio
 studio_group: spatial
-img: img/nova2.jpg
+img: img/studio/eventide.png
 abstract: "A look into the algorithmic reverb that provides the sense of immense, cold vacuum essential for cosmic ambient music."
 ---
 
@@ -22,7 +22,7 @@ Eventide’s Blackhole is an iconic, "otherworldly" reverb that originated as a 
 
 Unlike a "Room" or "Hall" reverb which tries to emulate a physical space on Earth, the Black Hole is designed to sound unnatural and vast. 
 
-{% include player.html file="mp3/test.mp3" title="Test of embedded audio player" %}
+{% include player.html file="mp3/test-01.mp3" title="Test of embedded audio player" %}
 
 Another take on the same motif:
 
