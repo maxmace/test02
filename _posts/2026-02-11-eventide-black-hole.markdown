@@ -10,9 +10,9 @@ abstract: "A look into the algorithmic reverb that provides the sense of immense
 ---
 
 ### Creating the Void
-To Simon and Garfunkel, the sound of silence was a metaphor for an existential paradox that resulted in a famous commercial moneymaker decrying commercial fame and money-making..
+To Simon and Garfunkel, the sound of silence was a metaphor for an existential paradox that resulted in a famous commercial moneymaker decrying commercial fame and money-making. And just as Paul Simon may have been affecting the protective cynical shell of post-beatnik poetry, I am also not the cynic in this case. I think it's a terrific song and it deserves its popularity. If popular music were a star, space music would float out in its Kuiper Belt. 
 
-In space music, silence is just as important as sound. The space between sounds is a psychoacoustic cue. If the silence is literally silent, listeners perceive a lack of space. Ironically, to convey vast nothingness, we need to fill that space with something. 
+Similar to classical music, in space music, silence is just as important as sound. The space between sounds is a psychoacoustic cue. If the silence is literally silent, listeners perceive a lack of space. Ironically, to convey vast nothingness, we need to fill that space with something.
 
 Eventide’s Blackhole is an iconic, "otherworldly" reverb that originated as a algorithm in the DSP4000 Ultra-Harmonizer rack unit in 1994. Today's familiar pedal and stompbox version is a modern version of that original rack processor preset. 
 
