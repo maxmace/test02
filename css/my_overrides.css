@@ -444,8 +444,8 @@ audio::-webkit-media-controls-enclosure {
 .post-reference-box {
     border: 1px solid rgba(0, 242, 255, 0.6) !important; 
     padding: 1.5rem;
-    font-size: 1.65rem;   
-    color: LightSkyBlue;
+    font-size: 1.75rem;   
+    color: PowderBlue;
     font-style: italic;
 }
 
