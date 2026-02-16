@@ -429,6 +429,20 @@ audio::-webkit-media-controls-enclosure {
     background-color: rgba(154, 223, 255, 0.1) !important;
 }
 
+.about-reference-box {
+    border: 1px solid rgba(0, 242, 255, 0.6);
+    padding: 25px;
+    margin: 40px 0;
+    border-radius: 6px;
+    background: rgba(13, 16, 23, 0.6);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    box-shadow: 0 0 15px rgba(0, 242, 255, 0.15);
+    color: #e5e7eb;
+}
+
+
+
 /* ==========================================================================
    FINAL SECTION - SAFARI-ONLY GLOW ADJUSTMENT (WEBKIT FIX)
    ========================================================================== */
