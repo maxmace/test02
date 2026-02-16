@@ -443,8 +443,8 @@ audio::-webkit-media-controls-enclosure {
 
 .post-reference-box {
     border: 1px solid rgba(0, 242, 255, 0.6) !important; 
-    padding: 25px;
-    font-size: 1.75rem;   
+    padding: 1rem;
+    font-size: 1.5rem;   
 }
 
 
