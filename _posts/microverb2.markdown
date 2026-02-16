@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Alesis Microverb 2 - the sound of endless space"
+subtitle: "Primordial digital cosmic sound environment"
+date: 2026-02-16 8:00:00 -0000
+category: studio
+studio_group: spatial
+img: img/studio/eventide.png
+abstract: "Years before blachole and shimmer algorythms, a little box from Alesis captured endless space."
+---
+
+### Little box, big sound
+If you're a teenager and need a digital reverb in the 80s, good luck finding one on Taco Bell wages.
