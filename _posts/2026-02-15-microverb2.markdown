@@ -13,7 +13,7 @@ abstract: "Years before blachole and shimmer algorythms, a little box from Alesi
 If you're a teenager and need a digital reverb in the 80s, good luck finding one on Taco Bell wages.
 In 1989 the Alesis Microverb II apeared as a followup to the original 1986 Microverb. Priced at 165£ in the UK, it was one of the few budget options for generating digital space. 
 
-The Manual says the following about the large hall programs:
+The Manual says the following about the large hall programs, part technical rundown and part tech-writer poetry:
 
 <div class="post-reference-box">
 Large reverberant spaces return initial echoes for a period of time from the onset of an impulse, where the period is a function of the room size. This initial period is uneven before the smooth exponential decay begins. The large programs of the MICROVERB II are similar to halls. Such a reverb sound has rnore character than the more bland Small room sound and lends a beautiful, open spaciousness to vocals and instruments, The large programs are not intended to be perfectly smooth...
