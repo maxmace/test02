@@ -19,7 +19,7 @@ The Manual says the following about the large hall programs:
 Large reverberant spaces return initial echoes for a period of time from the onset of an impulse, where the period is a function of the room size. This initial period is uneven before the smooth exponential decay begins. The large programs of the MICROVERB II are similar to halls. Such a reverb sound has rnore character than the more bland Small room sound and lends a beautiful, open spaciousness to vocals and instruments, The large programs are not intended to be perfectly smooth...
 </div>
 
-To be fair, the Microverb II sound is a bit more polished than the original Microverb. Alesis algorithms were renowned for pulling maximum lushness from the available processing power. 
+To be fair, the late 80s Microverb II sound is a bit more polished than the original mid 80s Microverb. Alesis algorithms were renowned for pulling maximum lushness from the available processing power. 
 
 But we are not here for normal plate or hall effects. We are here because this unit can accomplish an effect it would be hard to achieve otherwise. 
 
