@@ -13,7 +13,8 @@ abstract: "Years before blachole and shimmer algorythms, a little box from Alesi
 If you're a teenager and need a digital reverb in the 80s, good luck finding one on Taco Bell wages.
 In 1989 the Alesis Microverb II apeared as a followup to the original 1986 Microverb. Priced at 165£ in the UK, it was one of the few budget options for generating digital space. Still a princely sum, it was almost within reach. Especially if you had a girlfriend that really wanted you to have it.
 
-IMAGE OF FRONT PANEL
+![FRONT PANEL](/img/studio/microverb-face.jpg)
+ALESIS MICROVERB II (1989) FRONT PANEL
 
 The Manual says the following about the large hall programs, part technical rundown and part tech-writer poetry:
 
@@ -28,7 +29,8 @@ But we are not here for normal plate or ambience presets. We are here because th
 ### Deep Space
 Before the two ubiquitous 1980 gate effects, the Microverb II programs grow increasingly large, from small ambience to the aptly named “Large 4: Deep Space”. Strictly speaking, Deep Space is a Hall effect (not to be confused with the Hall coefficient!). 
 
-IMAGE OF PRESET LIST
+![PRESET LIST](/img/studio/microverb-presets.png)
+MICROVERB II PRESET LIST
 
 Deep Space is understandably useless to most musicians. Its something of an ENDLESS hall effect. You could do something like this with a Lexicon and a delay with the perfect feedback setting, but it likely wouldn’t sound as good as “Deep Space”. 
 
