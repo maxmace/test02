@@ -9,7 +9,7 @@ img: img/studio/microverb2.png
 abstract: "Years before blachole and shimmer algorythms, a little box from Alesis captured endless space."
 ---
 
-### Little box, big sound
+#### Little box, big sound
 If you're a teenager and need a digital reverb in the 80s, good luck finding one on Taco Bell wages.
 In 1989 the Alesis Microverb II apeared as a followup to the original 1986 Microverb. Priced at 165£ in the UK, it was one of the few budget options for generating digital space. 
 
@@ -23,24 +23,41 @@ To be fair, the late 80s Microverb II sound is a bit more polished than the orig
 
 But we are not here for normal plate or hall effects. We are here because this unit can accomplish an effect it would be hard to achieve otherwise. 
 
-## Deep Space
-Before the two ubiquitous 1980 gate effects, the Microverb II programs grow increasingly large, from small ambience to the aptly named “Large 4: Deep Space”. Strictly speaking, Deep Space is a Hall effect (not to be confused with the Hall coefficient!). Deep Space is understandably useless to most musicians. Its something of an ENDLESS hall effect. You could do something like this with a Lexicon and a delay with the perfect feedback setting, but it likely wouldn’t sound as good as “Deep Space”. With their preset “Large 4”, Alesis has produced an essential space music effect. 
+### Deep Space
+Before the two ubiquitous 1980 gate effects, the Microverb II programs grow increasingly large, from small ambience to the aptly named “Large 4: Deep Space”. Strictly speaking, Deep Space is a Hall effect (not to be confused with the Hall coefficient!). Deep Space is understandably useless to most musicians. Its something of an ENDLESS hall effect. You could do something like this with a Lexicon and a delay with the perfect feedback setting, but it likely wouldn’t sound as good as “Deep Space”. 
+
+With their preset “Large 4”, Alesis has produced an essential space music effect. 
+
 Use it on everything, or in a busy passage, and you’ve just muddied your mix.
+
 Use it on the right thing, at the psychological moment, and you have drenched your sound in a space as big as the void between galaxies. 
-## Deep Stereo (of a kind)
+
+### Deep Stereo (of a kind)
 The Microverb II manual includes this cryptic section in its specifications list: 
 INPUT: MATRIXED STEREO
 OUTPUT: FULL IMAGED STEREO
+
 As a composer for multichannel surround, when I see “matrixed stereo”, I think of folded-down surround sound, such as any of the flavors of Dolby Stereo, Doly Pro-Logic, etc, based on the old Sansui QS matrix.
+
 But when 1980s Alesis digital reverbs (such as the Microverb II) specify that they have "matrixed stereo input", what does that mean? Do they sum stereo inputs?
+
 Yes and no.
+
 Here is how the signal path typically functions:
 Dry Signal: The dry (unaffected) signal remains in true stereo. The left input passes to the left output, and the right input passes to the right output, preserving the original stereo image.
+
 Wet Signal (Reverb): The left and right inputs are summed together into a single mono signal. This mono sum is what feeds the reverb algorithm. The processor then generates a pseudo-stereo reverb effect from that mono source to create width in the outputs. I hesitate to call it “pseudo-stereo”. It is actual stereo, just not original to the source recording. The original stereo image is replaced by the Microverb II algorithmic sound field. It’s good-sounding stereo, but the original soundstage has been lost.
+
 This "matrixed" approach was a common cost-saving design in 1980s budget rack gear; it allowed the unit to offer stereo connectivity and a stereo-sounding finish without requiring the processing power of a "True Stereo" engine (which would require two independent reverb processors).
+
 You may have already noticed that you can mitigate this somewhat by preserving some degree of dry signal, which retains the original stereo imaging. 
+
 Or, if you lived in the future and these units were cheap and readily available, you could just throw money at it…
-## True stereo deep space signal path 
-### From the magic of buying two of them
+
+### True stereo deep space signal path 
+#### From the magic of buying two of them
 So with two Microverb IIs (which do not add up to a Microverb 4) One accepting the left channel, and one accepting the right, you can get a big stereo deep space effect that is hard to replicate otherwise. One caveat is that you will need to sum the stereo outputs of both Microverbs to recover single channels to recombine to left and right. 
-You would be correct to expect that some phase cancelation will occur for each signal during this summation. You can test it by inverting the phase before summing and listening to the output. If what you are losing is unacceptable, consider going for the inbuilt “wet synthesized stereo/dry original stereo” mixing solution, which still sounds terrific. The “Dual-Microverb Stereo Deep Space” trick is a special effect that gets pulled out when I want to make a statement.
+
+You would be correct to expect that some phase cancelation will occur for each signal during this summation. You can test it by inverting the phase before summing and listening to the output. If what you are losing is unacceptable, consider going for the inbuilt “wet synthesized stereo/dry original stereo” mixing solution, which still sounds terrific. 
+
+The “Dual-Microverb Stereo Deep Space” trick is a special effect that gets pulled out when I want to make a statement.
