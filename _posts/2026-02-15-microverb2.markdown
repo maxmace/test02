@@ -9,9 +9,11 @@ img: img/studio/microverb2.png
 abstract: "Years before blachole and shimmer algorythms, a little box from Alesis captured endless space."
 ---
 
-#### Little box, big sound
+### Little box, big sound
 If you're a teenager and need a digital reverb in the 80s, good luck finding one on Taco Bell wages.
-In 1989 the Alesis Microverb II apeared as a followup to the original 1986 Microverb. Priced at 165£ in the UK, it was one of the few budget options for generating digital space. 
+In 1989 the Alesis Microverb II apeared as a followup to the original 1986 Microverb. Priced at 165£ in the UK, it was one of the few budget options for generating digital space. Still a princely sum, it was almost within reach. Especially if you had a girlfriend that really wanted you to have it.
+
+IMAGE OF FRONT PANEL
 
 The Manual says the following about the large hall programs, part technical rundown and part tech-writer poetry:
 
@@ -24,7 +26,11 @@ To be fair, the late 80s Microverb II sound is a bit more polished than the orig
 But we are not here for normal plate or hall effects. We are here because this unit can accomplish an effect it would be hard to achieve otherwise. 
 
 ### Deep Space
-Before the two ubiquitous 1980 gate effects, the Microverb II programs grow increasingly large, from small ambience to the aptly named “Large 4: Deep Space”. Strictly speaking, Deep Space is a Hall effect (not to be confused with the Hall coefficient!). Deep Space is understandably useless to most musicians. Its something of an ENDLESS hall effect. You could do something like this with a Lexicon and a delay with the perfect feedback setting, but it likely wouldn’t sound as good as “Deep Space”. 
+Before the two ubiquitous 1980 gate effects, the Microverb II programs grow increasingly large, from small ambience to the aptly named “Large 4: Deep Space”. Strictly speaking, Deep Space is a Hall effect (not to be confused with the Hall coefficient!). 
+
+IMAGE OF PRESET LIST
+
+Deep Space is understandably useless to most musicians. Its something of an ENDLESS hall effect. You could do something like this with a Lexicon and a delay with the perfect feedback setting, but it likely wouldn’t sound as good as “Deep Space”. 
 
 With their preset “Large 4”, Alesis has produced an essential space music effect. 
 
