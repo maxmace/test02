@@ -99,7 +99,7 @@ We are chasing the sound of the Eventide Blackhole, a non-physical, pitch-evolvi
 
 We will approximate that using  Valhalla Shimmer, Valhalla Supermassive, and Valhalla FutureVerb. Since Supermassive is free, you might as well download it and see what you think.
 
-<div class=”post-reference-box”>
+---
 
 BLACKHOLE IN VALHALLA SHIMMER
 
@@ -135,9 +135,7 @@ Mix
 
 Result: Expansive, harmonic bloom. Not identical to Blackhole’s downward cascade, but achieves evolving harmonic mass.
 
-</div>
-
-<div class="post-reference-box">
+---
 
 VALHALLA SUPERMASSIVE
 
@@ -170,17 +168,13 @@ Automate Feedback between 0.88 → 0.95 for swelling gravity effects.
 
 Result: Vast, non-linear, evolving space. This is the closest structural match to Blackhole’s “unreal geometry.”
 
-</div>
-
-<div class="post-reference-box">
+---
 
 VALHALLA FUTUREVERB
 
 “Controlled Singularity”
 
 FutureVerb’s architecture (reverb + echo routing) allows closer structural mimicry of Blackhole’s feedback complexity.
-
----
 
 Reverb Section
 
@@ -203,7 +197,6 @@ Low Cut: 120 Hz
 
 High Cut: 6–8 kHz
 
-________________________________________
 
 Echo Section
 
@@ -230,9 +223,7 @@ Routing:
 
 This is critical. It feeds pitch-shifted material into the reverb tank, approximating Blackhole’s internal feedback manipulation.
 
-</div>
-
-<div class="post-reference-box"> 
+---
 
 Mix Strategy (may not match your workflow)
 
@@ -242,7 +233,7 @@ Mix Strategy (may not match your workflow)
 
 - Use stereo widening post-plugin if needed (either on the reverb or on the mixed track, whichever makes sense)
 
-</div>
+---
 
 ### Reverb Review and Technical Setup
 
