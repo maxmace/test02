@@ -11,6 +11,15 @@ abstract: "Years before blachole and shimmer algorythms, a little box from Alesi
 
 ### Little box, big sound
 If you're a teenager and need a digital reverb in the 80s, good luck finding one on Taco Bell wages.
+
+Strapped for funds, I resorted to tape playback at 2x speed inside a cistern. When slowed down to normal speed it provided a dense, if noisy walah that could be mixed into the dry signal to stand in for depth.
+
+The process sounds more romantic than it is. The cistern still exists today at my family ranch, filled with water and moss. Even today people are spending good money to do something similar 75 miles north in Rangely Colorado's TANK center for sonic arts, a decommissioned water tower.  The TANK is famous for its 40-second natural reverberation. It never occurred to me to measure the reverb tail of the space I called “the cistern chapel”. At full speed it was over 20 seconds, so at ½-speed, it was comparable to Rangely’s TANK, albeit much more inconvenient. 
+
+But just as our spatial universe is unbounded, I longed for a reverb effect that would go on forever. 
+
+What would **that** sound like?
+
 In 1989 the Alesis Microverb II apeared as a followup to the original 1986 Microverb. Priced at 165£ in the UK, it was one of the few budget options for generating digital space. Still a princely sum, it was almost within reach. Especially if you had a girlfriend that really wanted you to have it.
 
 ![FRONT PANEL]({{ site.baseurl }}/img/studio/microverb-face.jpg)
