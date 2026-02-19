@@ -447,6 +447,7 @@ audio::-webkit-media-controls-enclosure {
    10. ABOUT REFERENCE BOX
    ========================================================================== */
 
+
 .about-reference-box {
     border: 1px solid rgba(0, 242, 255, 0.6);
     padding: 20px;
@@ -455,6 +456,7 @@ audio::-webkit-media-controls-enclosure {
     background-color: rgba(0, 242, 255, 0.05);
 }
 
+/* post REFERENCE box is for decorative text (like quotes or poems) */
 .post-reference-box {
     border: 1px solid rgba(0, 242, 255, 0.6) !important; 
     padding: 1.5rem;
@@ -468,12 +470,28 @@ audio::-webkit-media-controls-enclosure {
    POST INFO BOX (NON-DESTRUCTIVE)
    ========================================================================== */
 
+/* post INFO box is to set aside info in a sidebar-like container, like code or instructions */
 .post-info-box {
     border: 1px solid PowderBlue;
     padding: 3rem;                   /* ~48px */
     margin: 3rem 0;                  /* ~48px vertical */
     border-radius: 0.125rem;         /* ~2px */
 }
+
+
+/* ==========================================================================
+   FIX LIST TEXT SIZE INSIDE POST ARTICLES
+   ========================================================================== */
+
+.article-body-content ul,
+.article-body-content ol,
+.article-body-content li,
+.portfolio-content-body ul,
+.portfolio-content-body ol,
+.portfolio-content-body li {
+    font-size: 1em;
+}
+
 
 /* ==========================================================================
    FINAL SECTION - SAFARI-ONLY GLOW ADJUSTMENT (WEBKIT FIX)
