@@ -474,6 +474,7 @@ audio::-webkit-media-controls-enclosure {
     margin: 30px 0;
     background: rgba(0, 242, 255, 0.05);
     border-radius: 4px;
+    display: block;
 }
 
 /* Preserve normal paragraph spacing inside */
