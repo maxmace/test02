@@ -139,6 +139,8 @@ Result: Expansive, harmonic bloom. Not identical to Blackhole’s downward casca
 
 ---
 
+<div class="post-info-box" markdown="1">
+
 VALHALLA SUPERMASSIVE
 
 “Event Horizon Mode”
@@ -170,7 +172,11 @@ Automate Feedback between 0.88 → 0.95 for swelling gravity effects.
 
 Result: Vast, non-linear, evolving space. This is the closest structural match to Blackhole’s “unreal geometry.”
 
+</div>
+
 ---
+
+<div class="post-info-box" markdown="1">
 
 VALHALLA FUTUREVERB
 
@@ -225,7 +231,11 @@ Routing:
 
 This is critical. It feeds pitch-shifted material into the reverb tank, approximating Blackhole’s internal feedback manipulation.
 
+</div>
+
 ---
+
+<div class="post-info-box" markdown="1">
 
 Mix Strategy (may not match your workflow)
 
@@ -234,6 +244,8 @@ Mix Strategy (may not match your workflow)
 - Automate send level instead of decay
 
 - Use stereo widening post-plugin if needed (either on the reverb or on the mixed track, whichever makes sense)
+
+</div>
 
 ---
 
