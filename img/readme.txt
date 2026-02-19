@@ -29,14 +29,27 @@ vid subdirectory would be a good place to keep 16 x 9 alternate video player thu
 
 ========================================
 ALTERNATE YOUTUBE PLAYER SPLASH SCREEN/THUMBNAILS
+AND YOUTUBE LINK ENHANCED OVERRIDE FEATURES
 ========================================
 
 youtube videos can utilize aditional thumbnails through the following syntax on portfolo post links:
 
-dgasfgasfgasfg
+{% include youtube.html 
+     id="COxMHHi6apU" 
+     start="155" 
+     end="388" 
+     thumb="nova2.jpg" 
+     title="Journey through a supernova." 
+%}
 
-this is useful, for example, when a page may contain 3 of the same video with player overrides (time hacks) to jump to different sections of the video.
+id = YouTube video ID, a unique, 11-character alphanumeric string assigned to every video uploaded to the platform. It acts as a digital fingerprint or a specific address.
+
+"start" and "end" = the punch in and out points in cumulative seconds. You can use "start" without "end", and it will play through to the end of the vido from your start point.
+
+thumb = Places a image file over the video before playback, different from the inbuilt youtube thumbnail. This is useful, for example, when a page may contain 3 of the same video with player overrides (time hacks) to jump to different sections of the video.
 
 img/vid/ video thumbnails should be 16 x 9 aspect ratio.
 
 A good naming convention would be {{something}}-video.jpg, for example "angel-video.jpg"
+
+title= a subtitle that renders in a box below the video
