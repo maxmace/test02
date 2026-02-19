@@ -99,7 +99,7 @@ We are chasing the sound of the Eventide Blackhole, a non-physical, pitch-evolvi
 
 We will approximate that using  Valhalla Shimmer, Valhalla Supermassive, and Valhalla FutureVerb. Since Supermassive is free, you might as well download it and see what you think.
 
-[
+<span class="post-reference-box">
 
 BLACKHOLE IN VALHALLA SHIMMER
 
@@ -135,7 +135,7 @@ Mix
 
 Result: Expansive, harmonic bloom. Not identical to Blackhole’s downward cascade, but achieves evolving harmonic mass.
 
-]{: .post-reference-box}
+</span>
 
 ---
 
