@@ -6,12 +6,10 @@ img: img/vid/sidereal_notes_thumb.png
 modalID: modalSiderealNotes
 category: Notes
 ---
-# Siderieal Birthday - Listener Notes
+# Sidereal Birthday - Listener Notes
 ## A two part invention for baroque synthesizer
 
-{% include youtube.html
-    id="65QbzqDzqxg"
-    title="Journey through a supernova." %}
+{% include youtube.html id="65QbzqDzqxg" title="Journey through a supernova." %}
 
 ### A Listener's Guide:
 
