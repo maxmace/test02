@@ -51,7 +51,11 @@ Negative Gravity is where it gets weird. An inverse, “sucking” decay where t
 
 ### Valhalla Shimmer
 
-Valhalla Shimmer is compared to blackhole, but they share little in common. As a shimmer reverb, Valhalla Shimmer is a feedback reverb network (similar to Hall/Plate approaches) with built-in pitch shifters plus lush diffusion. Can Valhalla Shimmer Sound Like Blackhole? Partially yes. Especially for the more ambient, evolving tail textures. But Shimmer’s pitch shifting is fixed to large preset intervals and isn’t intended to be easily modulated (although you can automate that). Blackhole’s architecture is more about algorithmic space than shimmer itself.
+Valhalla Shimmer is compared to Blackhole, but they share little in common. Valhalla Shimmer is a feedback reverb network (similar to Hall/Plate approaches) with built-in pitch shifters plus lush diffusion. 
+
+Shimmer provides a very distinctive effect, and you need to be judicious in its application. The "angelic shimmer cliché" happens because the high frequency pitch shifted wash on one recording tends to sound like the same high frequency pitch shifted wash on anyone else’s recording. Independent of what instrument you are running through it, you always get a fluttering string section effect. Blame guitarists for its overuse in the form of the Strymon BigSky pedal. Some guitarists will do anything to change their sound. between you and me, I don't think they even like the guitar.
+
+Can Valhalla Shimmer Sound Like Blackhole? Partially yes. Especially for the more ambient, evolving tail textures. But Shimmer’s pitch shifting is fixed to large preset intervals and isn’t intended to be easily modulated (although you can automate that). Blackhole’s architecture is more about algorithmic space than shimmer itself.
 
 So Valhalla Shimmer can approximate Blackhole’s vibe, especially for ambient pads and washes, but of course it isn’t a perfect algorithmic match.
 
@@ -237,12 +241,9 @@ This is critical. It feeds pitch-shifted material into the reverb tank, approxim
 
 <div class="post-info-box" markdown="1">
 
-Mix Strategy (may not match your workflow)
-
+Mix Strategy (may not match your workflow, follow as you see fit)
 - Put it on a bus. Aux send at 100% wet
-
 - Automate send level instead of decay
-
 - Use stereo widening post-plugin if needed (either on the reverb or on the mixed track, whichever makes sense)
 
 </div>
