@@ -53,11 +53,13 @@ Negative Gravity is where it gets weird. An inverse, “sucking” decay where t
 
 Valhalla Shimmer is compared to Blackhole, but they share little in common. Valhalla Shimmer is a feedback reverb network (similar to Hall/Plate approaches) with built-in pitch shifters plus lush diffusion. 
 
-Shimmer provides a very distinctive effect, and you need to be judicious in its application. The "angelic shimmer cliché" happens because the high frequency pitch shifted wash on one recording tends to sound like the same high frequency pitch shifted wash on anyone else’s recording. Independent of what instrument you are running through it, you always get a fluttering string section effect. Blame guitarists for its overuse in the form of the Strymon BigSky pedal. Some guitarists will do anything to change their sound. between you and me, I don't think they even like the guitar.
+Shimmer provides a very distinctive effect, and you need to be judicious in its application. The "angelic shimmer cliché" happens because the high frequency pitch shifted wash on one recording tends to sound like the same high frequency pitch shifted wash on anyone else’s recording. 
 
-Can Valhalla Shimmer Sound Like Blackhole? Partially yes. Especially for the more ambient, evolving tail textures. But Shimmer’s pitch shifting is fixed to large preset intervals and isn’t intended to be easily modulated (although you can automate that). Blackhole’s architecture is more about algorithmic space than shimmer itself.
+Independent of what instrument you are running through it, you always get a fluttering string section effect. Blame guitarists for its overuse in the form of the Strymon BigSky pedal. Some guitarists will do anything to change their sound. between you and me, I don't think they even like the guitar.
 
-So Valhalla Shimmer can approximate Blackhole’s vibe, especially for ambient pads and washes, but of course it isn’t a perfect algorithmic match.
+Can Valhalla Shimmer Sound Like Blackhole? The answer is a qualified "yes", primarily to provide ambient, evolving tail textures. But Shimmer’s pitch shifting is fixed to large preset intervals and isn’t intended to be easily modulated (although you can automate that). Blackhole’s architecture is more about algorithmic space than the octave pitch shift shimmer itself.
+
+Valhalla Shimmer can approximate Blackhole’s vibe, especially for ambient pads and washes, but it isn’t a perfect algorithmic match.
 
 ### General Tips for Approximating Blackhole with Valhalla Shimmer
 
@@ -105,7 +107,7 @@ We will approximate that using  Valhalla Shimmer, Valhalla Supermassive, and Val
 
 <div class="post-info-box" markdown="1">
 
-BLACKHOLE IN VALHALLA SHIMMER
+#### BLACKHOLE IN VALHALLA SHIMMER
 
 “Octave Gravity Well”
 
@@ -145,7 +147,7 @@ Result: Expansive, harmonic bloom. Not identical to Blackhole’s downward casca
 
 <div class="post-info-box" markdown="1">
 
-VALHALLA SUPERMASSIVE
+#### BLACKHOLE IN VALHALLA SUPERMASSIVE
 
 “Event Horizon Mode”
 
@@ -182,7 +184,7 @@ Result: Vast, non-linear, evolving space. This is the closest structural match t
 
 <div class="post-info-box" markdown="1">
 
-VALHALLA FUTUREVERB
+#### BLACKHOLE IN VALHALLA FUTUREVERB
 
 “Controlled Singularity”
 
@@ -241,7 +243,8 @@ This is critical. It feeds pitch-shifted material into the reverb tank, approxim
 
 <div class="post-info-box" markdown="1">
 
-Mix Strategy (may not match your workflow, follow as you see fit)
+#### Mix Strategy 
+(may not match your workflow, follow as you see fit)
 - Put it on a bus. Aux send at 100% wet
 - Automate send level instead of decay
 - Use stereo widening post-plugin if needed (either on the reverb or on the mixed track, whichever makes sense)
