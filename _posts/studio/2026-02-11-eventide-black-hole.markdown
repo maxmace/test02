@@ -1,6 +1,6 @@
 ---
 layout: post
-title: " replicate the Eventide Black Hole with Valhalla Shimmer"
+title: "Replicate the Eventide Black Hole with Valhalla Shimmer, Supermassive, & FutureVerb!"
 subtitle: "Designing Infinite Space"
 date: 2026-02-11 10:00:00 -0000
 category: studio
