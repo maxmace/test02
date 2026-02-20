@@ -116,13 +116,14 @@ img.inline-spinner {
 }
 
 /* ==========================================================================
-   3. VIDEO PLAYER & YOUTUBE ELEMENTS (CONSOLIDATED)
+   3. VIDEO PLAYER & YOUTUBE ELEMENTS (STABILIZED)
    ========================================================================== */
 
-/* Standard Video Container (for Portfolio Items) */
+/* Standard Video Container */
 .video-container {
     position: relative;
-    padding-bottom: 56.25%;
+    width: 100%;
+    padding-bottom: 56.25%; /* Fixed 16:9 Aspect Ratio */
     height: 0;
     overflow: hidden;
     background-color: #000;
@@ -130,37 +131,32 @@ img.inline-spinner {
     margin-bottom: 20px;
 }
 
-/* Responsive Hero Video (for About section or Full-Width) */
-.video-responsive {
-    overflow: hidden;
-    padding-bottom: 56.25%; /* 16:9 Ratio */
-    position: relative;
-    height: 0;
-    margin-top: 30px;
-    border: 1px solid rgba(0, 242, 255, 0.3);
-    box-shadow: 0 0 20px rgba(0, 242, 255, 0.1);
-}
-
-.video-responsive iframe {
-    left: 0;
-    top: 0;
-    height: 100%;
-    width: 100%;
+/* Ensures iframes and wrappers fill the container exactly */
+.video-container iframe,
+.video-thumb-wrapper {
     position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
 }
 
 .video-thumb-wrapper {
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
     cursor: pointer;
-    overflow: hidden;
-    border-radius: 8px;
+    z-index: 5;
+    display: block;
     border: 1px solid #00f2ff !important;
     box-shadow: 0 0 15px rgba(0, 242, 255, 0.2);
-    display: flex;
+    border-radius: 8px;
 }
 
-.video-thumb-wrapper img { width: 100%; height: 100%; object-fit: cover; }
+.video-thumb-wrapper img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
 
 .play-overlay {
     position: absolute;
@@ -172,7 +168,8 @@ img.inline-spinner {
     border-radius: 50%;
     z-index: 10;
     color: #00f2ff;
-    text-shadow: 0 0 10px #00f2ff;
+    /* FIX: Click passes through the overlay to the wrapper below */
+    pointer-events: none; 
 }
 
 .play-overlay::after {
@@ -192,19 +189,13 @@ img.inline-spinner {
     box-shadow: 0 0 20px #00f2ff;
 }
 
-.video-container {
-    position: relative;
-    width: 100%;
-    aspect-ratio: 16 / 9;
+/* Title caption below the video */
+.video-caption {
+    text-align: center;
+    margin-top: 10px;
+    color: #e5e7eb;
+    font-size: 0.9em;
 }
-
-.video-container iframe {
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    height: 100%;
-}
-
 
 /* ==========================================================================
    4. ARTICLES (DUSTY INDIGO) & THUMBNAILS
@@ -250,18 +241,14 @@ img.inline-spinner {
     margin-top: 1.5em;
 }
 
-/* ==========================================================================
-   4b. POST & ARTICLE IMAGE SCALING (RESPONSIVE)
-   ========================================================================== */
-
-/* Ensures images inside posts scale for mobile and never overflow containers */
+/* Ensures images inside posts scale for mobile */
 .article-body-content img,
 .portfolio-content-body img {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 1.5rem auto; /* Adds spacing above/below and centers image */
-    border-radius: 4px;   /* Optional: softens image corners slightly */
+    margin: 1.5rem auto; 
+    border-radius: 4px;
 }
 
 /* ==========================================================================
@@ -452,15 +439,14 @@ footer {
     font-size: 1.2em;
 }
 
-/* Customizing the native player colors (Chrome/Safari/Edge) */
+/* Customizing native player colors */
 audio::-webkit-media-controls-enclosure {
     background-color: rgba(154, 223, 255, 0.1) !important;
 }
 
 /* ========================================================================== 
-   10. ABOUT REFERENCE BOX
+   10. REFERENCE & INFO BOXES
    ========================================================================== */
-
 
 .about-reference-box {
     border: 1px solid rgba(0, 242, 255, 0.6);
@@ -470,7 +456,6 @@ audio::-webkit-media-controls-enclosure {
     background-color: rgba(0, 242, 255, 0.05);
 }
 
-/* post REFERENCE box is for decorative text (like quotes or poems) */
 .post-reference-box {
     border: 1px solid rgba(0, 242, 255, 0.6) !important; 
     padding: 1.5rem;
@@ -480,23 +465,14 @@ audio::-webkit-media-controls-enclosure {
     font-style: italic;
 }
 
-/* ==========================================================================
-   POST INFO BOX (NON-DESTRUCTIVE)
-   ========================================================================== */
-
-/* post INFO box is to set aside info in a sidebar-like container, like code or instructions */
 .post-info-box {
     border: 1px solid PowderBlue;
-    padding: 3rem;                   /* ~48px */
-    margin: 3rem 0;                  /* ~48px vertical */
-    border-radius: 0.125rem;         /* ~2px */
+    padding: 3rem;
+    margin: 3rem 0;
+    border-radius: 0.125rem;
 }
 
-
-/* ==========================================================================
-   FIX LIST TEXT SIZE INSIDE POST ARTICLES
-   ========================================================================== */
-
+/* Fixes for Post list typography */
 .article-body-content ul,
 .article-body-content ol,
 .article-body-content li,
@@ -506,9 +482,8 @@ audio::-webkit-media-controls-enclosure {
     font-size: 1.2em;
 }
 
-
 /* ==========================================================================
-   FINAL SECTION - SAFARI-ONLY GLOW ADJUSTMENT (WEBKIT FIX)
+   FINAL SECTION - SAFARI-ONLY GLOW ADJUSTMENT
    ========================================================================== */
 @media not all and (min-resolution:.001dpcm) { 
     @supports (-webkit-appearance:none) {
