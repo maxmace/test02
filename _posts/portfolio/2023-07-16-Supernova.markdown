@@ -16,7 +16,7 @@ Featuring the Hollow Sun Advanced Noise Generator, the Ensoniq ESQ1, Hydrasynth 
 {% include youtube.html 
    id="COxMHHi6apU" 
    start="436" 
-   thumb="img/nova.jpg" 
+   thumb="nova.jpg" 
    title="This is the music-only part of the video" %}
 
 <h3>About this video </h3>
@@ -30,7 +30,7 @@ Featuring the Hollow Sun Advanced Noise Generator, the Ensoniq ESQ1, Hydrasynth 
    id="COxMHHi6apU" 
    start="155" 
    end="388" 
-   thumb="img/portfolio/supernova.png" 
+   thumb="portfolio/supernova.png" 
    title="Journey through a supernova." %}
 
 
