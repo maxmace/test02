@@ -2,7 +2,7 @@
 layout: portfolio
 title:  "Sidereal Birthday"
 date:   2026-02-18 11:10:10 -0500
-img: img/vid/sidereal-thumb.jpg
+img: img/portfolio/sidereal-birthday-post.jpg
 modalID: modalSiderealNotes
 category: Planetarium
 ---
