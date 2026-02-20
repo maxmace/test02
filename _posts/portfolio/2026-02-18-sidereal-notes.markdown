@@ -2,7 +2,7 @@
 layout: portfolio
 title:  "Sidereal Birthday Listener Notes"
 date:   2026-02-18 11:08:10 -0500
-img: img/vid/sidereal_notes_thumb.png
+img: img/portfolio/sidereal-notes-post.png
 modalID: modalSiderealNotes
 category: Notes
 ---
