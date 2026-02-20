@@ -2,7 +2,7 @@
 layout: portfolio
 title:  "Supernova"
 date:   2023-07-16 11:08:10 -0500
-img: img/portfolio/supernova.png
+img: img/portfolio/Supernova-18x13-post.png
 modalID: modalSupernova
 category: Design
 ---
