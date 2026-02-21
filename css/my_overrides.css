@@ -119,7 +119,7 @@ img.inline-spinner {
    3. VIDEO PLAYER & YOUTUBE ELEMENTS (STABILIZED)
    ========================================================================== */
 
-/* Standard Video Container */
+/* Standard Video Container (Used in Portfolio Posts) */
 .video-container {
     position: relative;
     width: 100%;
@@ -131,8 +131,21 @@ img.inline-spinner {
     margin-bottom: 20px;
 }
 
-/* Ensures iframes and wrappers fill the container exactly */
+/* Responsive Hero Video (Specific to About section) */
+.video-responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%; /* 16:9 Ratio */
+    position: relative;
+    height: 0;
+    width: 100%; 
+    margin-top: 30px;
+    border: 1px solid rgba(0, 242, 255, 0.3);
+    box-shadow: 0 0 20px rgba(0, 242, 255, 0.1);
+}
+
+/* Ensures all iframes fill their specific containers */
 .video-container iframe,
+.video-responsive iframe,
 .video-thumb-wrapper {
     position: absolute;
     top: 0;
@@ -168,7 +181,6 @@ img.inline-spinner {
     border-radius: 50%;
     z-index: 10;
     color: #00f2ff;
-    /* FIX: Click passes through the overlay to the wrapper below */
     pointer-events: none; 
 }
 
@@ -189,7 +201,6 @@ img.inline-spinner {
     box-shadow: 0 0 20px #00f2ff;
 }
 
-/* Title caption below the video */
 .video-caption {
     text-align: center;
     margin-top: 10px;
@@ -226,7 +237,6 @@ img.inline-spinner {
     transform: scale(1.03); 
 }
 
-/* Typography for Detail Pages */
 .article-body-content, 
 .portfolio-content-body {
     font-size: 1.2rem;
@@ -241,7 +251,6 @@ img.inline-spinner {
     margin-top: 1.5em;
 }
 
-/* Ensures images inside posts scale for mobile */
 .article-body-content img,
 .portfolio-content-body img {
     max-width: 100%;
@@ -439,7 +448,6 @@ footer {
     font-size: 1.2em;
 }
 
-/* Customizing native player colors */
 audio::-webkit-media-controls-enclosure {
     background-color: rgba(154, 223, 255, 0.1) !important;
 }
@@ -472,7 +480,6 @@ audio::-webkit-media-controls-enclosure {
     border-radius: 0.125rem;
 }
 
-/* Fixes for Post list typography */
 .article-body-content ul,
 .article-body-content ol,
 .article-body-content li,
