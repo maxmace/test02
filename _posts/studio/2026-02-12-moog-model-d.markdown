@@ -20,10 +20,10 @@ The original 24dB per octave ladder filter combines with the pretty narrow capab
 <table style="width: 100%;
   background-color: DarkSlateBlue;
   border-width: 2px;
-  border-color: #ffcc00;
+  border-color: MidnightBlue;
   border-style: solid;
   color: LightCyan;">
-  <thead style=' background-color: #ffcc00;'>
+  <thead style=' background-color: MidnightBlue;'>
     <tr>
       <th colspan='2' style="border-width: 2px;
   border-color: MidnightBlue;
@@ -33,7 +33,7 @@ The original 24dB per octave ladder filter combines with the pretty narrow capab
   </thead>
   <tbody>
     <tr style="border-width: 2px;
-  border-color: #ffcc00;
+  border-color: MidnightBlue;
   border-style: solid;
   padding: 3px;">
       <td>Minimoog</td>
@@ -44,14 +44,14 @@ The original 24dB per octave ladder filter combines with the pretty narrow capab
       <td>3 DCOs (digitally controlled waveform oscillators</td>
     </tr>
     <tr style="border-width: 2px;
-  border-color: #ffcc00;
+  border-color: MidnightBlue;
   border-style: solid;
   padding: 3px;">
       <td><B>Filter:</B> The legendary Moog Ladder Filter</td>
       <td>The legendary Curtis  analogue 4‑pole resonant filter</td>
     </tr>
     <tr style="border-width: 2px;
-  border-color: #ffcc00;
+  border-color: MidnightBlue;
   border-style: solid;
   padding: 3px;">
       <td colspan='2' style=" text-align: center;"><b>Use Case:</b> Lead melodies and drone foundations</td>
