@@ -32,6 +32,8 @@ I'd like to think the season can spread a little warmth no matter where you find
   <figcaption><strong>Extreme trans-Neptunian objects</strong> </figcaption>
 </figure>
 
+---
+
 This video contains both a Listener's Guide and the original cinematic track "Space Angels", a new planetarium composition interpolating melodies from a couple traditional Christmas carols.
 
 - 00:00 Logo
