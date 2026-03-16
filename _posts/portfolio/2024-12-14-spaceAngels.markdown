@@ -27,7 +27,10 @@ For this seasonal planetarium experiment, I’d like to split the difference bet
 
 I'd like to think the season can spread a little warmth no matter where you find yourself.
 
-![Extreme trans-Neptunian objects]([https://example.com](https://upload.wikimedia.org/wikipedia/commons/5/56/Distant_object_orbits_%2B_Planet_Nine.png) "Extreme trans-Neptunian objects")
+<figure>
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Distant_object_orbits_%2B_Planet_Nine.png" alt="Extreme trans-Neptunian objects">
+  <figcaption><strong>Extreme trans-Neptunian objects</strong> </figcaption>
+</figure>
 
 This video contains both a Listener's Guide and the original cinematic track "Space Angels", a new planetarium composition interpolating melodies from a couple traditional Christmas carols.
 
