@@ -10,7 +10,9 @@ category: Articles
 
 ### The Current that sweeps away "the current"
 
-In the realm of cinematic space music, the argument often shifts from the *sound* to the machine that makes the sound.  My goal is always to remain somewhat focused on the composition and performance itself and not the hardware. I’d like to think when composing for a dome environment, the spatial awareness required of the composer helps inform the composition. 
+In the realm of cinematic space music, the focus too often shifts from the *music* to *the machine that makes the music*.  
+
+My goal is to remain primarily focused on the **composition** and **performance**, and not the hardware. I’d like to think when composing for a dome environment, the spatial awareness required of the composer helps inform the composition much more than the hardware limitations.  By this I mean not only the performance "space", but the requirements of the musical setting; the form, the development, the orchestration...which is itself informed by the "hardware". This is true for both acoustic AND electronic orchestration.  
 
 
 <img src="https://commons.wikimedia.org/wiki/File:Yamaha_CS-80_(1977)_8-voices_dual-layered_analog_polyphonic_synthesizer,_with_22_preset_sounds_%26_6_user_patches_-_VINTAGE_SYNTH_@_YAMAHA_BOOTH_-_2015_NAMM_Show.jpg#/media/File:Yamaha_CS-80_(1977)_8-voices_dual-layered_analog_polyphonic_synthesizer,_with_22_preset_sounds_&_6_user_patches_-_VINTAGE_SYNTH_@_YAMAHA_BOOTH_-_2015_NAMM_Show.jpg" alt="Yamaha CS-80 – the king of polysynths">
