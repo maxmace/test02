@@ -558,7 +558,8 @@ audio::-webkit-media-controls-enclosure {
 
     font-family: "Century Gothic", sans-serif;
     font-size: 0.8em;
-    color: #00f2ff;
+    color: #306767;
+    /* color: #00f2ff; */
     text-transform: uppercase;
     letter-spacing: 1px;
 }
