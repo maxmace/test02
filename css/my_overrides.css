@@ -589,6 +589,15 @@ audio::-webkit-media-controls-enclosure {
     text-shadow: 0 0 8px #00f2ff;
 }
 
+/*
+Add a subtle divider when collapsed:
+*/
+.section-toggle:not([open]) {
+    border-bottom: 1px solid rgba(0, 242, 255, 0.3);
+    padding-bottom: 10px;
+}
+
+
 /* ==========================================================================
    FINAL SECTION - SAFARI-ONLY GLOW ADJUSTMENT
    ========================================================================== */
