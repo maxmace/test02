@@ -491,39 +491,7 @@ audio::-webkit-media-controls-enclosure {
 
 /* ==========================================================================
    COLLAPSIBLE SECTION STYLING
-   ========================================================================== */
 
-.section-summary {
-    cursor: pointer;
-    list-style: none;
-    text-align: center;
-}
-
-/* Remove default arrow */
-.section-summary::-webkit-details-marker {
-    display: none;
-}
-
-/* Custom arrow */
-.section-summary::after {
-    content: "▾";
-    display: inline-block;
-    margin-left: 10px;
-    font-size: 18px;
-    transition: transform 0.25s ease;
-}
-
-/* Rotate arrow when open */
-.section-toggle[open] .section-summary::after {
-    transform: rotate(180deg);
-}
-
-/* Optional spacing when collapsed */
-.section-toggle:not([open]) {
-    margin-bottom: 20px;
-}
-
-/* ==========================================================================
    ENHANCED SECTION TOGGLE UI (BOTTOM-LEFT STYLE)
    ========================================================================== */
 
