@@ -568,24 +568,24 @@ Add a subtle divider when collapsed:
 /* ==========================================================================
    NAVBAR GLOBAL TOGGLE CONTROL
    ========================================================================== */
-
 .nav-toggle-all {
     display: flex !important;
     align-items: center;
-    gap: 6px;
+    gap: 5px;
 
     font-family: "Century Gothic", sans-serif;
-    font-size: 0.75em;
+    font-size: 0.65em;              /* smaller text */
     text-transform: uppercase;
     letter-spacing: 1px;
 
-    color: #00f2ff !important;
+    color: #5f8fa8 !important;      /* darker, more subdued blue */
+    opacity: 0.8;                  /* slightly muted */
 }
 
+/* Chevron styling */
 .nav-toggle-all .chevron {
+    font-size: 11px;
     transition: transform 0.25s ease;
-    font-size: 12px;
-}
 
 /* Hover effect */
 .nav-toggle-all:hover {
