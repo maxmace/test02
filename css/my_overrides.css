@@ -98,6 +98,7 @@ img.inline-spinner {
 .hollow-text {
     display: inline-block !important;
     font-weight: 900 !important;
+   -webkit-text-fill-color: transparent !important; /* Force the inside to be empty */
     color: transparent !important;
     -webkit-text-stroke: 2px #ffffff !important;
     text-transform: uppercase !important;
