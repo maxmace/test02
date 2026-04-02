@@ -3,9 +3,12 @@ title: "Memory Wheel"
 email: "wynkoop+memwheel@gmail.com"
 description: "EPIC CINEMATIC RETRO PLANETARIUM MUSIC"
 
-url: "https://memwheel.com"
+
 permalink: /:categories/:title/
-baseurl: ""
+
+
+baseurl: "/test02"
+url: "https://maxmace.github.io"
 
 # Social media profiles
 github_username: "maxmace"
