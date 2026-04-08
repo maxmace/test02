@@ -11,7 +11,7 @@ category: Holiday
 
 {% include youtube.html 
    id="k0tFg6SawD0" 
-   thumb="img/vid/spaceAngels.png" 
+   thumb="img/portfolio/spaceAngels.png" 
    title="Space Angels" %}
 
 A 1970s-style planetarium laser rock odyssey for the holidays.
