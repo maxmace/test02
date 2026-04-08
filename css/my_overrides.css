@@ -1,64 +1,51 @@
-==========================================================================
-
-   0. GRID LAYOUT & FLEXBOX (UNIFIED)
-
+/* ==========================================================================
+   0. GRID LAYOUT & FLEXBOX (FIXED)
    ========================================================================== */
 
-
-
-/* Fixes spacing/alignment for Portfolio, Article, and Studio thumbnails */
-
+/* 1. Turn the row into a Flex Container */
 #portfolio .row, 
-
 .article-flex-grid {
-
     display: flex;
-
     flex-wrap: wrap;
-
 }
 
-
-
+/* 2. Restore Widths while keeping Flex behavior */
 #portfolio .portfolio-item,
-
 .article-item,
-
 .studio-item {
-
     float: none !important;
-
     display: flex;
-
     flex-direction: column;
-
+    margin-bottom: 30px; /* Space between rows */
 }
 
+/* 3. Force 3-columns on Desktop, 2 on Tablet, 1 on Mobile */
+@media(min-width: 992px) {
+    #portfolio .portfolio-item { width: 33.33% !important; }
+}
 
+@media(min-width: 768px) and (max-width: 991px) {
+    #portfolio .portfolio-item { width: 50% !important; }
+}
 
+@media(max-width: 767px) {
+    #portfolio .portfolio-item { width: 100% !important; }
+}
+
+/* 4. Ensure the internal links fill the flex height */
 #portfolio .portfolio-link,
-
 .article-link,
-
 .studio-link {
-
     width: 100%;
-
     flex-grow: 1;
-
+    display: flex;
+    flex-direction: column;
 }
-
-
 
 #portfolio img.img-responsive {
-
     width: 100%;
-
     height: auto;
-
 }
-
-
 
 /* Force Portfolio Heading to stay centered on all screen sizes */
 
