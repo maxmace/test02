@@ -14,7 +14,6 @@ The Jagged Gyre of Galactic Fire is a 3-part planetarium overture in a cinematic
 
 {% include youtube.html 
    id="oXDGPfODu0s" 
-   thumb="img/vid/galacticFire-vid.png" 
    title="Jagged Gyre of Galactic Fire" %}
 
 ### A Listener's Guide:
