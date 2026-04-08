@@ -37,7 +37,7 @@
                                         <i class="fa fa-arrow-right fa-3x"></i>
                                     </div>
                                 </div>
-                                <img src="{{ site.baseurl }}/{{ post.img }}"
+                                <img src="{{ post.img | relative_url }}"
                                      class="img-responsive"
                                      alt="{{ post.alt | default: post.title }}">
                             </a>
