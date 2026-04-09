@@ -12,6 +12,8 @@ category: Articles
 
 In the realm of cinematic space music, the focus too often shifts from the *music* to *the machine that makes the music*.  (see footnote [^1])
 
+<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Test Image">
+
 My goal is to remain primarily focused on the **composition** and **performance**, and not the hardware. I’d like to think when composing for a dome environment, the spatial awareness required of the composer helps inform the composition much more than the hardware limitations.  By this I mean not only the performance "space", but the requirements of the musical setting; the form, the development, the orchestration...which is itself informed by the "hardware". This is true for both acoustic AND electronic orchestration.  
 
 {% raw %}
