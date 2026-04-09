@@ -14,7 +14,9 @@ In the realm of cinematic space music, the focus too often shifts from the *musi
 
 My goal is to remain primarily focused on the **composition** and **performance**, and not the hardware. I’d like to think when composing for a dome environment, the spatial awareness required of the composer helps inform the composition much more than the hardware limitations.  By this I mean not only the performance "space", but the requirements of the musical setting; the form, the development, the orchestration...which is itself informed by the "hardware". This is true for both acoustic AND electronic orchestration.  
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Yamaha_CS-80_%281977%29_8-voices_dual-layered_analog_polyphonic_synthesizer%2C_with_22_preset_sounds_%26_6_user_patches_-_VINTAGE_SYNTH_%40_YAMAHA_BOOTH_-_2015_NAMM_Show.jpg" alt="Yamaha CS-80" class="img-fluid" style="width: 100%;">
+{% raw %}
+![Yamaha CS-80](https://upload.wikimedia.org/wikipedia/commons/4/41/Yamaha_CS-80_%281977%29_8-voices_dual-layered_analog_polyphonic_synthesizer%2C_with_22_preset_sounds_%26_6_user_patches_-_VINTAGE_SYNTH_%40_YAMAHA_BOOTH_-_2015_NAMM_Show.jpg)
+{% endraw %}
 
 But it might be closer to the truth that the synthesizer and recording hardware of the 1970’s enforced a kind of musical argot in the same way that classical composers approached instruments like the harpsichord or valveless trumpet. The capabilities and limitations of the sound creation “machines” combined with the musical modes-of-the-day created the lightning-in-a-bottle that inspired generations. 
 
