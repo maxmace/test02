@@ -7,7 +7,7 @@ description: "EPIC CINEMATIC RETRO PLANETARIUM MUSIC"
 permalink: /:categories/:title/
 
 
-baseurl: "/test02"
+baseurl: "/music"
 url: "https://maxmace.github.io"
 
 # Social media profiles
