@@ -35,7 +35,8 @@ I'd like to think the season can spread a little warmth no matter where you find
 
 ---
 
-This video contains both a Listener's Guide and the original cinematic track "Space Angels", a new planetarium composition interpolating melodies from a couple traditional Christmas carols.  {: #chapters}
+#### CHAPTERS {: #chapters}
+This video contains both a Listener's Guide and the original cinematic track "Space Angels", a new planetarium composition interpolating melodies from a couple traditional Christmas carols. 
 
 {% include youtube.html id="k0tFg6SawD0" start="23" end="204" thumb="img/vid/angles-notes.jpg" title="Play Listener's Guide only" %}
 
