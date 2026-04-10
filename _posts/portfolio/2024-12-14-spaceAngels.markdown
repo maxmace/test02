@@ -18,7 +18,7 @@ A 1970s-style planetarium laser rock odyssey for the holidays.
 
 Possibly the world's first retro planetarium Christmas track!
 
-<a name="vid-chapters">  *(Jump directly to bottom of page for video chapter selection)*{: style="color: yellow;"}  </a>
+<a href="#vid-chapters">  *(Jump directly to bottom of page for video chapter selection)*{: style="color: yellow;"}  </a>
 
 There have been hundreds of Christmas-themed planetarium shows throughout the years. Often centered on skywatching opportunities around the winter solstice. Occasionally explorations of the Christmas star provide opportunities to learn about meteors, comets and  supernovae. 
 
