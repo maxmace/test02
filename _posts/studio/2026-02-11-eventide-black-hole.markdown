@@ -5,7 +5,7 @@ subtitle: "Designing Infinite Space"
 date: 2026-02-11 10:00:00 -0000
 category: studio
 studio_group: spatial
-img: img/studio/eventide.png
+img: img/studio/eventide2.png
 abstract: "A look into the algorithmic reverb that provides the sense of immense, cold vacuum essential for cosmic ambient music."
 ---
 
